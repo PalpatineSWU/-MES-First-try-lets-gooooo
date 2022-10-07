@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContainerTypes>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_01</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_DarthSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_02</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_MaulCaneSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_03</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_MaulSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_04</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_DukuSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_05</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_ArkolisSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Sith_06</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_PalpatineSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

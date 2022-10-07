@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <ContainerTypes>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_01</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_LukeSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_02</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_LukeSaberRevItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_03</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_MaceSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_04</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_KananSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_05</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_EzraTrainSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Jedi_06</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AngleGrinder_EzraSaberItem</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

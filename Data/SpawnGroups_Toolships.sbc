@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <SpawnGroups>
+            <!--Copy From This Line-->
+            <SpawnGroup>
+                <Id>
+                    <TypeId>SpawnGroupDefinition</TypeId>                    <!--Do Not Edit-->
+                    <SubtypeId>Free_Toolship</SubtypeId>
+                </Id>
+                <Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[LunarCargoShip:true]
+			[SpaceRandomEncounter:true]
+			[AtmosphericCargoShip:true]
+			[PlanetaryInstallation:false]
+			[RivalAiSpawn:false]
+			
+			[FactionOwner:ImpN]
+			[ReplenishSystems:true]
+				
+            [PrefabSpawningMode:All]
+
+			[UseRivalAi:false]
+			[RivalAiReplaceRemoteControl:false]
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+
+            
+
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Emp]
+			
+
+			[RandomizeWeapons:true]
+
+                </Description>
+                <IsPirate>true</IsPirate>                <!--Do not edit-->
+                <Frequency>5.0</Frequency>
+                <Prefabs>
+                    <Prefab SubtypeId="'Tick'_Ore_Scow_and_'Mite'_Mining_Drone">
+                        <Position>
+                            <X>10.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="(DL._Inc)_Grinder_Drone_Mk_II">
+                        <Position>
+                            <X>20.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="(DL._Inc)_Mining_Drone_Mk_II">
+                        <Position>
+                            <X>30.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="(DL._Inc)_Welder_Drone_Mk_II">
+                        <Position>
+                            <X>40.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Atmospheric_Miner_mk.2">
+                        <Position>
+                            <X>50.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Cargo_Buddy_mk.1">
+                        <Position>
+                            <X>60.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Drillbot_mk.1">
+                        <Position>
+                            <X>70.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="DroneS Drill.Warhead">
+                        <Position>
+                            <X>80.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Grindbot_mk.1">
+                        <Position>
+                            <X>90.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Hostile Miner">
+                        <Position>
+                            <X>100.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Old Mining Drone">
+                        <Position>
+                            <X>110.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>
+                    <Prefab SubtypeId="Salvage Drone">
+                        <Position>
+                            <X>120.0</X>
+                            <Y>0.0</Y>
+                            <Z>0.0</Z>
+                        </Position>
+                        <Speed>25</Speed>
+                        <Behaviour></Behaviour>
+                    </Prefab>                 
+                </Prefabs>
+            </SpawnGroup>
+            <!--Copy To This Line And Paste Directly Below-->
+        </SpawnGroups>
+    </EntityComponents>
+</Definitions>

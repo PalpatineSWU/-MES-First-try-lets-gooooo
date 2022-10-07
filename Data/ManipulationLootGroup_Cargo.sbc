@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_SW_Lg_Loot</SubtypeId>
+            </Id>
+            <Description>
+
+      [MES Loot Group]
+    	[LootProfiles:MES_SW_Lp_General]
+      
+            </Description>
+
+        </EntityComponent>
+
+
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_SW_Mg_Loot</SubtypeId>
+            </Id>
+            <Description>
+
+      [MES Manipulation Group]
+        [LootGroups:MES_SW_Lg_Loot]
+
+            </Description>
+
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

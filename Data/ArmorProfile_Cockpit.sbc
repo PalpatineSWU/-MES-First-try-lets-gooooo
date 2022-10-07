@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_1</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_Imperial_A9Interceptor_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_2</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_Imperial_HowlRunner_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_3</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_Rebellion_RZ1_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_4</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_Ionizer_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_5</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_AWing_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_6</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_EWing_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_7</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_XWing_70_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_8</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_XWing_XJ5_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_9</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_YWing_CockpitA]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_10</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_H60_Cockpit_A]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_11</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_NewRepublic_H60_Cockpit_B]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Cockpit_12</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Cockpit/SmallBlockCockpit]
+        [NewBlock:MyObjectBuilder_Cockpit/K_Pirates_StarViper_Cockpit]
+
+            </Description>
+
+        </EntityComponent>
+
+
+    </EntityComponents>
+</Definitions>

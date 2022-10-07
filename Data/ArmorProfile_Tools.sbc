@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_CIII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_Drill/LargeBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/LargeBlockDrill2x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/LargeShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/LargeShipWelder2x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder2x]
+
+
+        [OldBlock:MyObjectBuilder_Drill/SmallBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/SmallBlockDrill2x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/SmallShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/SmallShipWelder2x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder2x]
+
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_CII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_Drill/LargeBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/LargeBlockDrill4x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/LargeShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/LargeShipWelder4x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder4x]
+
+
+        [OldBlock:MyObjectBuilder_Drill/SmallBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/SmallBlockDrill4x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/SmallShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/SmallShipWelder4x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder4x]
+
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_CI</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_Drill/LargeBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/LargeBlockDrill8x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/LargeShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/LargeShipWelder8x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/LargeShipGrinder8x]
+
+
+        [OldBlock:MyObjectBuilder_Drill/SmallBlockDrill]
+        [NewBlock:MyObjectBuilder_Drill/SmallBlockDrill8x]
+
+        [OldBlock:MyObjectBuilder_ShipWelder/SmallShipWelder]
+        [NewBlock:MyObjectBuilder_ShipWelder/SmallShipWelder8x]
+
+        [OldBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder]
+        [NewBlock:MyObjectBuilder_ShipGrinder/SmallShipGrinder8x]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_OD_CIII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_OreDetector/LargeOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/LargeOreDetector2x]
+
+        [OldBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector2x]
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_OD_CII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_OreDetector/LargeOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/LargeOreDetector4x]
+
+        [OldBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector4x]
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Tools_OD_CI</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_OreDetector/LargeOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/LargeOreDetector8x]
+
+        [OldBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector]
+        [NewBlock:MyObjectBuilder_OreDetector/SmallBlockOreDetector8x]
+            </Description>
+
+        </EntityComponent>
+
+
+
+    </EntityComponents>
+</Definitions>

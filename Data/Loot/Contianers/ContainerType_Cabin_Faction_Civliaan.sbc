@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContainerTypes>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_01</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AutomaticRifleItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="20">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Food</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_02</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="20">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Industrial</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_03</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="20">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>PreciseAutomaticRifleGun_Mag_5rd</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Technology</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_04</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="20">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>UltimateAutomaticRifleGun_Mag_30rd</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Droids</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_05</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>BasicHandHeldLauncherItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="6">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>Missile200mm</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LuxyryGoods</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="3" CountMax="3">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_SW_ContainerTypes_Civ_06</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>PhysicalGunObject</TypeId>
+                        <SubtypeId>AdvancedHandHeldLauncherItem</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="6">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>Missile200mm</SubtypeId>
+                    </Id>
+                </Item>
+
+
+                <Item AmountMin="0" AmountMax="500">
+                    <Frequency>0.45</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>MedicalSupplies</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

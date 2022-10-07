@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Power_Battery_Vanilla_ClassIII</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_Battery]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_Reactor_Stock]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_PowerCell_Stock]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Power_Reactors_Vanilla_ClassIII</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_Reactor/LargeBlockLargeGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/PowerSupplies_SyncGenerator]
+        
+        [OldBlock:MyObjectBuilder_Reactor/LargeBlockSmallGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/K_Rebellion_Generator_Synth]
+        
+        [OldBlock:MyObjectBuilder_Reactor/SmallBlockLargeGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/P_Reactor_SG_Synth_3x3]
+        
+        [OldBlock:MyObjectBuilder_Reactor/SmallBlockSmallGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/K_Rebellion_Generator_Synth_SG]
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Power_Battery_Vanilla_ClassII</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_BatteryBlock/K_Imperial_Dropship_Guild_Battery]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Imperial_Dropship_Guild_BatteryParallel]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Imperial_Power_Battery_Nox]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_Reactor_StockCoal]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_PowerCell_QuickCharge]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Power_Reactors_Vanilla_ClassII</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_Reactor/LargeBlockLargeGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/K_Imperial_Reactors_Exonium_Large_LG]
+
+        [OldBlock:MyObjectBuilder_Reactor/LargeBlockSmallGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/K_Imperial_Reactors_Exonium_Small_LG]
+
+
+        [OldBlock:MyObjectBuilder_Reactor/SmallBlockLargeGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/P_Reactor_SG_Exo_3x3]
+
+        [OldBlock:MyObjectBuilder_Reactor/SmallBlockSmallGenerator]
+        [NewBlock:MyObjectBuilder_Reactor/K_Rebellion_Generator_Exo_SG]
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Power_Battery_Vanilla_ClassI</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+        [OldBlock:MyObjectBuilder_BatteryBlock/K_Imperial_Dropship_Guild_Battery]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Imperial_Dropship_Guild_BatteryPRAISEJESUS]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/PowerSupplies_Battery]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_Reactor_UpgradeSynth]
+
+        [OldBlock:MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock]
+        [NewBlock:MyObjectBuilder_BatteryBlock/K_Rebellion_RZ1_PowerCell_Capacity]
+      </Description>
+
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

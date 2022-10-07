@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<!--Do Not Edit Above Here-->
+
+		<!--Lancers-->
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Emp_Lancer_Test</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:false]
+			[LunarCargoShip:true]
+			[SpaceRandomEncounter:true]
+			[AtmosphericCargoShip:true]
+			[PlanetaryInstallation:false]
+			[RivalAiSpawn:false]
+			
+			[FactionOwner:ImpN]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Emp]
+			
+
+			[RandomizeWeapons:true]
+
+
+			[ShiftBlockColorsHue:true]
+			[ShiftBlockColorAmount:100]
+			[AssignGridSkin:DigitalCamouflage_Armor,CarbonFibre_Armor,Clean_Armor,SciFi_Armor,Golden_Armor,Silver_Armor,GlamourArmor,Disco_Armor,Wood_Armor,Mossy_Armor,Battered_Armor,CowMooFlage_Armor,Heavy_Rust_Armor,Rusty_Armor,Frozen_Armor,Neon_Colorable_Surface,Neon_Colorable_Lights,Dust_Armor,Concrete_Armor,Retrofuture_Armor,Hazard_Armor,WoodlandCamo_Armor,Weldless,Corrugated]
+
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(DL._Inc)_Grinder_Drone_Mk_II">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL._Inc)_Mining_Drone_Mk_II">
+					<Position>
+						<X>15.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL._Inc)_Welder_Drone_Mk_II">
+					<Position>
+						<X>30.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Cargo_Buddy_mk.1">
+					<Position>
+						<X>45.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="DroneS Drill.Warhead">
+					<Position>
+						<X>75.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Old Mining Drone">
+					<Position>
+						<X>120.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Grinder Drone Mk I">
+					<Position>
+						<X>135.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Mining Drone MK I">
+					<Position>
+						<X>150.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Welder Drone Mk I">
+					<Position>
+						<X>165.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Atmo Constructor">
+					<Position>
+						<X>195.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Buddy Miner">
+					<Position>
+						<X>210.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Gerbil Miner">
+					<Position>
+						<X>225.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Turtle Miner">
+					<Position>
+						<X>270.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Behavior_Fighter_01</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Emp_Test_II</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:false]
+			[LunarCargoShip:true]
+			[SpaceRandomEncounter:true]
+			[AtmosphericCargoShip:true]
+			[PlanetaryInstallation:false]
+			[RivalAiSpawn:false]
+			
+			[FactionOwner:ImpN]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Emp]
+			
+
+			[RandomizeWeapons:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Hostile Miner">
+					<Position>
+						<X>105.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Scout Miner">
+					<Position>
+						<X>255.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Salvage Drone">
+					<Position>
+						<X>285.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		<!--EndProcusators-->
+
+
+
+		<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

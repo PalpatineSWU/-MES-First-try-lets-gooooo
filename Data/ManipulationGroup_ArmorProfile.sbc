@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-DuraSteel</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES-Armor-LightToDuraSteel]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-Beskar</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES-Armor-LightToBeskar]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-Phrik</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES-Armor-LightToPhrik]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-Impervium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES-Armor-LightToImpervium]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>    
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES_ManipulationGroupsProfile_ArmorRandom</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Manipulation Group]
+      [ManipulationProfiles:MES-Manipulation-DuraSteel]
+      [ManipulationProfiles:MES-Manipulation-Beskar]
+      [ManipulationProfiles:MES-Manipulation-Phrik]
+      [ManipulationProfiles:MES-Manipulation-Impervium]      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

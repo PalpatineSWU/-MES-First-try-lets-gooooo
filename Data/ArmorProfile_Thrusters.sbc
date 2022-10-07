@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Thruster_Vanilla_to_DR</SubtypeId>
+            </Id>
+            <Description>
+
+                [MES Block Replacement]
+                [RelaxReplacedBlocksSize:true]
+
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi]
+        
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Large_LargeEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Large_SmallEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_LargeEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_SmallEmitter]
+        
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Large_LargeEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustIndustrial]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Large_SmallEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_LargeEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_SmallEmitter]
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Thruster_Ion_to_UpgradedI</SubtypeId>
+            </Id>
+            <Description>
+
+                [MES Block Replacement]
+                [RelaxReplacedBlocksSize:true]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockLargeThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockLargeThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi]
+        
+        
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Thruster_Ion_to_UpgradedII</SubtypeId>
+            </Id>
+            <Description>
+        
+                [MES Block Replacement]
+                [RelaxReplacedBlocksSize:true]
+                
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockLargeThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockLargeModularThruster]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/LargeBlockSmallModularThruster]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockLargeThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockLargeModularThruster]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/SmallBlockSmallModularThruster]
+        
+        
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Thruster_Ion_to_UpgradedIII</SubtypeId>
+            </Id>
+            <Description>
+        
+                [MES Block Replacement]
+                [RelaxReplacedBlocksSize:true]
+                
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_LightRec]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_Light_SG]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_LightRec]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_Light_SG]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallModularThruster]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_LightRec]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallModularThruster]
+        [NewBlock:MyObjectBuilder_Thrust/K_Pirates_Thrusters_Light_SG]
+        
+            </Description>
+
+        </EntityComponent>
+
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Thruster_Ion_to_UpgradedIIII</SubtypeId>
+            </Id>
+            <Description>
+        
+                [MES Block Replacement]
+                [RelaxReplacedBlocksSize:true]
+                
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_Imperial_Generics_Thruster_LG_Main]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrust]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_SmallEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi]
+        [NewBlock:MyObjectBuilder_Thrust/K_Imperial_Generics_Thruster_LG_Main]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_SmallEmitter]
+        
+        [OldBlock:MyObjectBuilder_Thrust/LargeBlockSmallModularThruster]
+        [NewBlock:MyObjectBuilder_Thrust/K_Imperial_Generics_Thruster_LG_Main]
+        
+        [OldBlock:MyObjectBuilder_Thrust/SmallBlockSmallModularThruster]
+        [NewBlock:MyObjectBuilder_Thrust/K_SWI_Repulsorlift_Small_SmallEmitter]
+        
+            </Description>
+
+        </EntityComponent>
+
+
+    </EntityComponents>
+</Definitions>

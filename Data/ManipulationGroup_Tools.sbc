@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_CIII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_CIII]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_CII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_CII]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_CI</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_CI]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_OD_CIII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_OD_CIII]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_OD_CII</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_OD_CII]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Tools_OD_CI</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:20]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Tools_OD_CI]
+			  [AlwaysRemoveBlock:false]
+        
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_ManipulationGroupsProfile_Tools</SubtypeId>
+            </Id>
+            <Description>
+
+      [MES Manipulation Group]
+      [ManipulationProfiles:MES_Manipulation_Tools_CIII]
+      [ManipulationProfiles:MES_Manipulation_Tools_CII]
+      [ManipulationProfiles:MES_Manipulation_Tools_CI]
+      [ManipulationProfiles:MES_Manipulation_Tools_OD_CIII]     
+      [ManipulationProfiles:MES_Manipulation_Tools_OD_CII]
+      [ManipulationProfiles:MES_Manipulation_Tools_OD_CI]     
+            </Description>
+
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

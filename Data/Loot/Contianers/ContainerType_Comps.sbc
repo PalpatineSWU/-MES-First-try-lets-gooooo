@@ -1,0 +1,1336 @@
+<?xml version="1.0"?>
+<!-- Created by Palpatines bleeding fingers: 2022-10-1 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+    <ContainerTypes>
+
+        <ContainerType CountMin="0" CountMax="12">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Comps_CIII</SubtypeId>
+            </Id>
+            <Items>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Motor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SteelPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Construction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>InteriorPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Display</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SmallTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LargeTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Computer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>MetalGrid</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BulletproofGlass</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Canvas</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Detector</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>GravityGenerator</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Medical</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>RadioCommunication</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Superconductor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Thrust</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialConstruction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialGeneralParts</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CommunicationsEquipment</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Basic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>DuraSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerGen_Basics</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionComponent</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Repulsor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Blaster_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LightweightDurasteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TranspariSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>AlternatePowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>HeavyDutyCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Advanced</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PhrikPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BeskarPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerConverter</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionAdvancedController</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonWingCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TurboLaser_Part</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Maser_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>NeurodiumPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PolyplastCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Elite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperviumPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactors_Ionic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Advanced_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Protons</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Ions</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="6" CountMax="18">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Comps_CII</SubtypeId>
+            </Id>
+            <Items>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Motor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SteelPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Construction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>InteriorPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Display</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SmallTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LargeTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Computer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>MetalGrid</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BulletproofGlass</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Canvas</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Detector</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>GravityGenerator</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Medical</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>RadioCommunication</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Superconductor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Thrust</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialConstruction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialGeneralParts</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CommunicationsEquipment</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Basic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>DuraSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerGen_Basics</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionComponent</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Repulsor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Blaster_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LightweightDurasteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.40</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TranspariSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>AlternatePowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>HeavyDutyCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Advanced</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PhrikPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BeskarPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerConverter</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionAdvancedController</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonWingCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TurboLaser_Part</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Maser_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>NeurodiumPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PolyplastCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Elite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperviumPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactors_Ionic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Advanced_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Protons</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Ions</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="12" CountMax="24">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Comps_CI</SubtypeId>
+            </Id>
+            <Items>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Motor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SteelPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Construction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>InteriorPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Display</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SmallTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LargeTube</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Computer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>MetalGrid</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BulletproofGlass</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Canvas</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Detector</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>GravityGenerator</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Medical</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>RadioCommunication</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Superconductor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Thrust</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialConstruction</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperialGeneralParts</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CommunicationsEquipment</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>StandardCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Basic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>DuraSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerGen_Basics</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionComponent</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>SolarCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Repulsor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Blaster_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>LightweightDurasteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TranspariSteel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>AlternatePowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>HeavyDutyCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Advanced</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PhrikPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>BeskarPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PowerConverter</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>FissionAdvancedController</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonWingCircuitry</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>TurboLaser_Part</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Maser_Mechanism</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>IonCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>NeurodiumPowerCell</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>PolyplastCabling</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Hyperdrive_Elite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ImperviumPlate</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Reactors_Ionic</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ThrusterParts_Advanced_Ion</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Protons</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="5" AmountMax="5000">
+                    <Frequency>3.50</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Ions</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

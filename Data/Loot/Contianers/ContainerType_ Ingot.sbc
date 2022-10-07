@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+<!-- Created by Palpatines bleeding fingers: 2022-10-1 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <ContainerTypes>
+
+        <ContainerType CountMin="0" CountMax="12">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Ingots_CIII</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Iron</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Nickel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cobalt</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Magnesium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silicon</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silver</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Gold</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Platinum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Alum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Beskar</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Carbonite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>DuraSteel_Ingot</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Exonium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Guerrerite_Crystal</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Hollinium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lignan</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lommite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Norax</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Phrik</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Polymer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Rubindum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Shraki</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zalfaric</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zersium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>SyntheticFuel</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="6" CountMax="18">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Ingots_CII</SubtypeId>
+            </Id>
+            <Items>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Iron</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Nickel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cobalt</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Magnesium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silicon</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silver</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Gold</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Platinum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Alum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Beskar</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Carbonite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>DuraSteel_Ingot</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Exonium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Guerrerite_Crystal</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Hollinium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lignan</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lommite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Norax</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Phrik</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Polymer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Rubindum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Shraki</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zalfaric</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zersium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>SyntheticFuel</SubtypeId>
+                    </Id>
+                </Item>
+
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="12" CountMax="24">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>MES_ContainerTypes_Ingots_CI</SubtypeId>
+            </Id>
+            <Items>
+ 
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Iron</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Nickel</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cobalt</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Magnesium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silicon</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Silver</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Gold</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Platinum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Alum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Beskar</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Carbonite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>DuraSteel_Ingot</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Exonium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Guerrerite_Crystal</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Hollinium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lignan</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Lommite</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                     <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Norax</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Phrik</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Polymer</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Rubindum</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Shraki</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zalfaric</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                   <Frequency>3</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Zersium</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="0" AmountMax="10000">
+                    <Frequency>0.10</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>SyntheticFuel</SubtypeId>
+                    </Id>
+                </Item>
+
+
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>	

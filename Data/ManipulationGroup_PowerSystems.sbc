@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Power_Battery_Class_III</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:30]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Power_Battery_Vanilla_ClassIII]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Power_Rector_Class_III</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:50]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Power_Reactors_Vanilla_ClassIII]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Power_Battery_Class_II</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:30]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Power_Battery_Vanilla_ClassII]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Power_Rector_Class_II</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:50]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Power_Reactors_Vanilla_ClassII]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Power_Battery_Class_I</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:30]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Power_Battery_Vanilla_ClassI]
+			  [AlwaysRemoveBlock:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES_ManipulationGroupsProfile_PowerRandom</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Manipulation Group]
+      [ManipulationProfiles:MES_Manipulation_Power_Battery_Class_I]
+      [ManipulationProfiles:MES_Manipulation_Power_Battery_Class_II] 
+      [ManipulationProfiles:MES_Manipulation_Power_Battery_Class_III] 
+      [ManipulationProfiles:MES_Manipulation_Power_Rector_Class_I]
+      [ManipulationProfiles:MES_Manipulation_Power_Rector_Class_II] 
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

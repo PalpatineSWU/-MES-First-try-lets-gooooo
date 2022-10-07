@@ -1,0 +1,2776 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Armor-LightToDuraSteel</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1SmallRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteel1x1x1SmallRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1LargeRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteel1x1x1LargeRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Left]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelCockpitArmorCorner4x1x1Left]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Right]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelCockpitArmorCorner4x1x1Right]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_LG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelAQD_SG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelLargeArmorQuarterPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/DuraSteelSmallArmorQuarterPanelLight]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Armor-LightToBeskar</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1SmallRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Beskar1x1x1SmallRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1LargeRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Beskar1x1x1LargeRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Left]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarCockpitArmorCorner4x1x1Left]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Right]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarCockpitArmorCorner4x1x1Right]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_LG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarAQD_SG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarLargeArmorQuarterPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/BeskarSmallArmorQuarterPanelLight]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Armor-LightToPhrik</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1SmallRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Phrik1x1x1SmallRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1LargeRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Phrik1x1x1LargeRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Left]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikCockpitArmorCorner4x1x1Left]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Right]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikCockpitArmorCorner4x1x1Right]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_LG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikAQD_SG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikLargeArmorQuarterPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/PhrikSmallArmorQuarterPanelLight]
+
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Armor-LightToImpervium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Block Replacement]
+
+
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquare]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCornerSquare]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquareInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCornerSquareInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanel4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanel4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle452x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelAngle452x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelAngle452x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope3x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlope3x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlope3x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelSlopeMirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelSlopeMirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanel]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallRoundArmorPanel]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallRoundArmorPanelMirrored]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallRoundArmorPanelMirrored]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRamp]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCorner2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerInv2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit2x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerDouble2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerHalfSplit]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerHalfSplit2x2x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble1x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerDouble1x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRamp3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCorner3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerInv3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerHalfSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit3x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1SmallRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Impervium1x1x1SmallRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/1x1x1LargeRampSEM4]
+        [NewBlock:MyObjectBuilder_CubeBlock/Impervium1x1x1LargeRampSEM4]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCorner2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCorner2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerInv2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerInv2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit2x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit2x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerDouble2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerDouble2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerHalfSplit2x2x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerHalfSplit2x2x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRampCornerSplit3x1x1Mirror]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRampCornerSplit3x1x1Mirror]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Left]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumCockpitArmorCorner4x1x1Left]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/CockpitArmorCorner4x1x1Right]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumCockpitArmorCorner4x1x1Right]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorInvCorner4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorInvCorner5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorInvCorner6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorInvCorner6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp4x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRamp4x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp5x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRamp5x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorRamp6x1x1]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorRamp6x1x1]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlope2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlope2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumHalfArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumHalfSlopeArmorBlock]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfSlopeCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_Half_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_RaisedCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_RaisedCorner_Inset]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorInvCorner2Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorInvCorner2Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCornerInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfSlopeCornerInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeInverted]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfSlopeInverted]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Corner_Split_2x1x1_Base]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Corner_Split_2x1x1_Tip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorRoundSlope]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorRoundCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCornerInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorRoundCornerInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_LG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_LG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerTip]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlopedCornerTip]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCorner]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorSlopedCorner]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCornerBase]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallBlockArmorHalfSlopedCornerBase]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_Corner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_Corner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_InvCorner_Split]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_InvCorner_Split]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_HalfSlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_HalfSlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/AQD_SG_LA_Slab_SlopeTransition]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumAQD_SG_LA_Slab_SlopeTransition]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumLargeArmorQuarterPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorSlopedSidePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedPanelTipLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedSideBasePanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedSideTipPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedSideBasePanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1SlopedSideTipPanelLightInv]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorHalfSlopedPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1HalfSlopedPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1HalfSlopedTipPanelLightRight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1HalfSlopedPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmor2x1HalfSlopedTipPanelLightLeft]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorHalfPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorHalfPanelLight]
+
+        [OldBlock:MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelLight]
+        [NewBlock:MyObjectBuilder_CubeBlock/ImperviumSmallArmorQuarterPanelLight]
+
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

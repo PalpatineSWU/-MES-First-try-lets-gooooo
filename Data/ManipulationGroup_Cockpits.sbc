@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_1</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_1]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_2</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_2]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_3</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_3]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_4</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_4]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_5</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_5]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_6</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_6]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_7</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_7]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_8</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_8]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_9</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_9]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_10</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_10]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_11</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_11]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Cockpit_12</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:8]
+			  [UseBlockReplacerProfile:true]
+			  [BlockReplacerProfileNames:MES_Cockpit_12]
+			  [AlwaysRemoveBlock:false]
+        
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES_ManipulationGroupsProfile_SmallGridCockpit</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Manipulation Group]
+
+      [ManipulationProfiles:MES_Manipulation_Cockpit_1]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_2]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_3]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_4]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_5]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_6]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_7]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_8]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_9]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_10]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_11]
+      [ManipulationProfiles:MES_Manipulation_Cockpit_12]
+      </Description>
+      
+    </EntityComponent>
+    
+    </EntityComponents>
+</Definitions>
