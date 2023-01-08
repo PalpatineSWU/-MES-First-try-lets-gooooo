@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Hacking_Unlock</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:false]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Toolships]		
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Toolships</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+
+
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_004]
+			</Description>      
+		</EntityComponent>
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Red</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Red]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Red</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_133]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Blue</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Blue]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Blue</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_137]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Green</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Green]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Green</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_136]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Three</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Three]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Three</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_128]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Six</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Six]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Six</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_129]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Nine</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:true]
+            [Type:PlayerNear]
+            [TargetDistance:3]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:SW_Action_Nine]		
+			</Description>      
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Nine</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [Chance:30]
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_130]
+			</Description>      
+		</EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES_TGP_Hack_R_3</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI TriggerGroup]
+
+      [Triggers:SW_Trigger_Red]
+      [Triggers:SW_Trigger_Three]
+      [Triggers:SW_Trigger_Hacking_R_1]
+      [Triggers:SW_Trigger_Hacking_R_2]
+      [Triggers:SW_Trigger_Hacking_R_3]   
+      [Triggers:SW_Trigger_Hacking_Unlock]           
+      </Description>
+      
+    </EntityComponent>
+
+
+          </EntityComponents>
+</Definitions>

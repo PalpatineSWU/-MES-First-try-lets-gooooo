@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_CargoShip_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--The Cargo Ship behavior is designed to be an alternative from using the default Cargo Ship movement 
+  The Cargo Ship behavior is designed to be an alternative from using the default Cargo Ship movement-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Escort_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Escort]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--Behavior Description: This behavior is used in conjunction with the Trigger/Action/Command system to allow a ship to request 
+ escorting another ship (eg: small drone escorting a cargo ship). Once the behavior sends the request, nearby potential 'parent' 
+ ships will receive the request. If the parent ship has a trigger configured to receive the command and process the escort request,
+ it will attempt to designate an available escort offset to the requestor (offsets need to be defined in the parent behavior). 
+ If an escort offset is successfully designated, then the requestor will travel to the offset and continue to travel to it as long as the ship exists. 
+ If an escort cannot acquire a parent grid to follow, 
+ then it will trigger a despawn based on time set in WaypointWaitTimeTrigger of the current Autopilot Profile (this only happens while UseNoTargetTimer is true).-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Smallships_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Fighter]
+
+
+    [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:333]
+        [IdealMaxSpeed:400]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:3000]
+        [StrafeMaxDurationMs:10000]
+        [StrafeSpeedCutOff:300]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--Behavior Description: The fighter behavior is designed primarily for small grid drones or fighter craft. 
+  It utilizes Forward Facing Static Weapons to engage targets. 
+  The behavior will approach the target, and then once it reaches a specified distance, 
+  it will switch to another mode where it will rotate towards the target to engage with weapons, while occasionally strafing.-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Largeships_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:HorseFighter]
+      [HorseFighterTimeApproaching:45]
+      [HorseFighterTimeEngaging:45]
+
+      [IdealMinSpeed:333]
+      [IdealMaxSpeed:400]
+
+      [DisableInertiaDampeners:false]
+      [SlowDownOnWaypointApproach:true]
+      [FlyLevelWithGravity:true]
+      [MinimumPlanetAltitude:200]
+      [IdealPlanetAltitude:300]
+      [WaypointTolerance:30]
+      [OffsetSpaceMinDistFromTarget:150]
+      [OffsetSpaceMaxDistFromTarget:300]
+      [OffsetPlanetMinDistFromTarget:150]
+      [OffsetPlanetMaxDistFromTarget:300]
+      [OffsetPlanetMinTargetAltitude:-200]
+      [OffsetPlanetMaxTargetAltitude:200]
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:1000]
+      [StrafeMaxDurationMs:1500]
+      [StrafeSpeedCutOff:333]
+
+
+      [Triggers:Trigger_Empire_Local_Reinforcements]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--HorseFighter is a combination between the Horsefly and Fighter behaviors. 
+Its main behavior mostly resembles the Horsefly movements where it will fly around a target in randomized patters and engage targets with Turrets.
+Internally, there is a timer that toggles a switch between Fighter and Horsefly. 
+If the switch is activated and the NPC grid is within range of the target, 
+the behavior will switch to the Rotate and Strafe behavior of the Fighter, engaging with Static Weapons.
+After the timer triggers the switch to turn off again, the behavior will resume Horsefly-like flight patterns until the timer once again activates the switch.
+-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Horsefly_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Horsefly]
+
+      [IdealMinSpeed:333]
+      [IdealMaxSpeed:400]
+
+      [DisableInertiaDampeners:false]
+      [SlowDownOnWaypointApproach:true]
+      [FlyLevelWithGravity:true]
+      [MinimumPlanetAltitude:200]
+      [IdealPlanetAltitude:300]
+      [WaypointTolerance:30]
+      [OffsetSpaceMinDistFromTarget:150]
+      [OffsetSpaceMaxDistFromTarget:300]
+      [OffsetPlanetMinDistFromTarget:150]
+      [OffsetPlanetMaxDistFromTarget:300]
+      [OffsetPlanetMinTargetAltitude:-200]
+      [OffsetPlanetMaxTargetAltitude:200]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+<!--The Horsefly behavior is designed for ships of any size that use Turrets as their primary means of attack. 
+  The behavior flies to the area of a target. Once within range, the NPC will fly to random positions around the target while the turrets engage.
+  If the NPC cannot reach one of the waypoints after a certain time, it will recalculate a new waypoint. This behavior does not use Static Weapons.-->
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Hunter_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Hunter]
+
+      [DisableInertiaDampeners:false]
+      [FlyLevelWithGravity:true]
+      [WaypointTolerance:25]
+      [IdealMinSpeed:333]
+      [IdealMaxSpeed:400]
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:150]
+
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--The hunter behavior is an advanced combat behavior that requires careful setup of its Targeting and Autopilot Profiles to function properly. 
+When the behavior does not have a valid target, it will approach its de-spawn coordinates using the Primary Autopilot Profile.
+If the behavior acquires a target, it will begin to approach the target using the Secondary Autopilot Profile if it is still valid when it does it's own timed check.
+While approaching the target, it requires one of 3 methods to confirm the target as valid. 
+To confirm a valid target, it can use Turret Target Detection, Camera Ray-cast, or Line of Sight (if the target profile includes that filter).
+If a target is validated, then the behavior will engage it with Fighter like maneuvering. 
+If a target is lost and no other target can be found, 
+the behavior will still travel to the target's last known location for a short time before resuming its course to de-spawn coordinates.
+If another target is later acquired, the process above is repeated.-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Nautical_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Nautical]
+
+      [DisableInertiaDampeners:false]
+      [SlowDownOnWaypointApproach:false]
+      [ExtraSlowDownDistance:0]
+      [FlyLevelWithGravity:false]
+      [AllowStrafing:false]
+      [WaypointTolerance:30]
+      [IdealMinSpeed:10]
+      [IdealMaxSpeed:400]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--This behavior allows NPCs to navigate to a target while floating in water. It uses path-finding to navigate around terrain obstacles, 
+allowing it reach targets that may be hiding among complex terrain and water. NPCs using this behavior must be spawned in water, 
+otherwise they will not be able to move.-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Passive_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--The passive behavior is designed to be used with Cargo Ship and Station encounters. 
+It does not have any special features on its own, but instead relies on provided configuration in the rest of the behavior settings (Triggers, Actions, etc).-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Patrol_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Patrol]
+
+      </Description>
+      
+    </EntityComponent>
+
+<!--This behavior allows the ship using it to patrol a random area from where the ship first spawned. 
+The distances for this are governed by the same Offset tags that Horsefly and other behaviors use.-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Strike_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Strike]
+      [StrikeBeginSpaceAttackRunDistance:3000]
+
+
+      [DisableInertiaDampeners:false]
+      [FlyLevelWithGravity:false]
+      [CollisionEvasionWaypointCalculatedAwayFromEntity:true]
+      [WaypointTolerance:50]
+      [IdealMinSpeed:50]
+      [IdealMaxSpeed:100]
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:50]
+
+      [OffsetSpaceMinDistFromTarget:900]
+      [OffsetSpaceMaxDistFromTarget:1000]
+      [OffsetPlanetMinDistFromTarget:100]
+      [OffsetPlanetMaxDistFromTarget:150]
+      [OffsetPlanetMinTargetAltitude:900]
+      [OffsetPlanetMaxTargetAltitude:1100]
+
+      [ReverseOffsetDistAltAboveHeight:true]
+      [ReverseOffsetHeight:1300]
+      </Description>
+      
+    </EntityComponent>
+
+<!--Behavior Description: The Strike behavior is designed primarily for small grid drones or fighter craft. 
+It utilizes Forward Facing Static Weapons to engage targets. The behavior will fly in the general direction of a target, 
+and once it gets within a certain range it will charge directly at the target and engage with static weapons. It will then break from the charge, 
+retreating a short distance, and then attempt another charge. If the target is on a planet near the surface, the charge maneuver is reminiscent of 
+a dive-bomb maneuver. This behavior does not use Keen Vanilla AutoPilot at all.-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Toolships</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Fighter]
+
+        [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:100]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:233]
+        [IdealMaxSpeed:300]
+
+        [EngageDistanceSpace:100]
+        [EngageDistancePlanet:100]
+        [DisengageDistanceSpace:12000]
+        [DisengageDistancePlanet:12000]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:1500]
+        [StrafeSpeedCutOff:45]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+
+
+  </EntityComponents>
+</Definitions>

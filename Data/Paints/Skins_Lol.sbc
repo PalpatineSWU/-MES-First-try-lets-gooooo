@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Clean_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Clean_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Clean_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Weldless</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Skin_Weldless]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Skin_Weldless]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Battered_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Battered_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Battered_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Rusty_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Rusty_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Rusty_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_SciFi_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:SciFi_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:SciFi_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Retrofuture_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Clean_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Clean_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Clean_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Neon_Colorable_Surface</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Neon_Colorable_Surface]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Neon_Colorable_Surface]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Neon_Colorable_Lights</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Neon_Colorable_Lights]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Neon_Colorable_Lights]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_CarbonFibre_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:CarbonFibre_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:CarbonFibre_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_DigitalCamouflage_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:DigitalCamouflage_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:DigitalCamouflage_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_WoodlandCamo_Armor</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:WoodlandCamo_Armor]
+               
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:WoodlandCamo_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Retrofuture_Armor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:18]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Retrofuture_Armor]
+        </Description>
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Hazard_Armor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:18]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Hazard_Armor]
+        </Description>
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Corrugated</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:18]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Corrugated]
+        </Description>
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Golden_Armor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:8]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Golden_Armor]
+        </Description>
+    </EntityComponent>
+        
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Silver_Armor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:2]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Silver_Armor]
+        </Description>
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_GlamourArmor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:2]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:GlamourArmor]
+        </Description>
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>MES_Manipulation_Skin_Disco_Armor</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:2]
+            [RecolorGrid:true]        
+            [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+            [ReskinTexture:Disco_Armor]
+        </Description>
+    </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

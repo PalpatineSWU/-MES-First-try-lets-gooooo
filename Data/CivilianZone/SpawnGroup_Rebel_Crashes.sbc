@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Civi_Stations_Crashes</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]	
+			[SpaceRandomEncounter:true]
+			[PlanetaryInstallation:true]
+			[SkipAirDensityCheck:true]
+            [CutVoxelsAtAirtightCells:true]
+            [CutVoxelSize:2.7]
+
+			[RivalAiSpawn:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]		
+			[ReplenishSystems:true]
+				
+			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Jumpdrives]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Skins]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Paint_Civi]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Civi]
+
+			[UseRandomNameGenerator:true]
+			[RandomGridNamePrefix:(Civi)]
+			[RandomGridNamePattern:Crashed Ship]
+
+			[FactionOwner:Civi]			
+			[ForceStaticGrid:true]
+
+			[ManipulationProfiles:MES_Manipulation_Crash]	
+        	[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Base_01">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_02">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_03">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_04">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_05">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_06">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_07">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_08">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_09">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_10">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_11">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_12">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_13">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_14">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_15">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_16">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_17">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_18">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_19">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_20">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="(DL. Inc) Grinder Drone Mk II">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Mining Drone Mk II">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Welder Drone Mk II">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Cargo Buddy">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="DroneS Drill.Warhead">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Old Mining Drone">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Grinder Drone Mk I">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Mining Drone MK I">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Welder Drone Mk I">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Atmo Constructor">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Buddy Miner">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Gerbil Miner">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Turtle Miner">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Hostile Miner">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="Scout Miner">
+					<Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(DL. Inc) Grinder Drone Mk II">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="(DL. Inc) Mining Drone Mk II">
+					<Position>
+						<X>15.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="(DL. Inc) Welder Drone Mk II">
+					<Position>
+						<X>30.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Cargo Buddy">
+					<Position>
+						<X>45.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="DroneS Drill.Warhead">
+					<Position>
+						<X>75.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Old Mining Drone">
+					<Position>
+						<X>120.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="(DL. Inc) Grinder Drone Mk I">
+					<Position>
+						<X>135.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="(DL. Inc) Mining Drone MK I">
+					<Position>
+						<X>150.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="(DL. Inc) Welder Drone Mk I">
+					<Position>
+						<X>165.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Atmo Constructor">
+					<Position>
+						<X>195.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Buddy Miner">
+					<Position>
+						<X>210.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Gerbil Miner">
+					<Position>
+						<X>225.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Turtle Miner">
+					<Position>
+						<X>270.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Hostile Miner">
+					<Position>
+						<X>105.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Scout Miner">
+					<Position>
+						<X>255.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Mini CR-90">
+				    <Position>
+				        <X>16.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="A9 Interceptor">
+				    <Position>
+				        <X>121.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+				<Prefab SubtypeId="Howlrunner">
+				    <Position>
+				        <X>136.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+				<Prefab SubtypeId="CR90 Corvette">
+				    <Position>
+				        <X>100.0</X>
+				        <Y>100.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="YT-250">
+				    <Position>
+				        <X>360.0</X>
+				        <Y>360.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+				<Prefab SubtypeId="YT-1300">
+				    <Position>
+				        <X>280.0</X>
+				        <Y>280.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Pelta-class Frigate">
+				    <Position>
+				        <X>160.0</X>
+				        <Y>160.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="H14 Cargo Hauler">
+				    <Position>
+				        <X>40.0</X>
+				        <Y>40.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="AA-9">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Consular class">
+				    <Position>
+				        <X>200.0</X>
+				        <Y>200.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Acclamator">
+				    <Position>
+				        <X>1.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Munificent Class Frigate">
+				    <Position>
+				        <X>300.0</X>
+				        <Y>300.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>
+
+				<Prefab SubtypeId="Providence Class Carrier">
+				    <Position>
+				        <X>700.0</X>
+				        <Y>700.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+				<Prefab SubtypeId="Providence Class Carrier II">
+				    <Position>
+				        <X>800.0</X>
+				        <Y>800.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+				<Prefab SubtypeId="Imperial Tank">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Civi_Crash_Ambush</Behaviour>
+				</Prefab>	
+
+			</Prefabs>
+		</SpawnGroup>
+        <!--City-->
+		<!--Copy To This Line And Paste Directly Below-->
+
+	</SpawnGroups>
+</Definitions>
+
+
+
+
+
+
+
+
+

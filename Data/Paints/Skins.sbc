@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Test</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:50]
+        [RecolorGrid:true]
+        [ReskinTarget:{X:0.9999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+        [ReskinTarget:{X:0.3333 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+        [ReskinTarget:{X:0.6666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+        [ReskinTarget:{X:0.8333 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+        [ReskinTarget:{X:0.4999 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+        [ReskinTarget:{X:0.1666 Y:0.2 Z:0.55}]
+        [ReskinTexture:Retrofuture_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Base</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:50]
+        [RecolorGrid:true]
+        [AssignGridSkin:Battered_Armor,Rusty_Armor,SciFi_Armor,Clean_Armor,CarbonFibre_Armor]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Skin_Base_Empire</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:50]
+        [RecolorGrid:true]
+        [AssignGridSkin:DigitalCamouflage_Armor,CarbonFibre_Armor,Clean_Armor,Weldless,SciFi_Armor,Clean_Armor,Neon_Colorable_Surface,Neon_Colorable_Lights]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_ManipulationGroupsProfile_Skins</SubtypeId>
+      </Id>
+      <Description>
+             [MES Manipulation Group]
+        [ManipulationProfiles:MES_Manipulation_Skin_Base]
+        [ManipulationProfiles:MES_Manipulation_Skin_Clean_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Weldless]
+        [ManipulationProfiles:MES_Manipulation_Skin_Battered_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Rusty_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_SciFi_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Retrofuture_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Clean_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Neon_Colorable_Surface]
+        [ManipulationProfiles:MES_Manipulation_Skin_Neon_Colorable_Lights]
+        [ManipulationProfiles:MES_Manipulation_Skin_CarbonFibre_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_DigitalCamouflage_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_WoodlandCamo_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Retrofuture_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Hazard_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Corrugated]
+        [ManipulationProfiles:MES_Manipulation_Skin_Golden_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_WoodlandCamo_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Silver_Armor]
+        [ManipulationProfiles:MES_Manipulation_Skin_GlamourArmor]
+        [ManipulationProfiles:MES_Manipulation_Skin_Disco_Armor]
+      </Description>
+    </EntityComponent>
+    </EntityComponents>
+</Definitions>

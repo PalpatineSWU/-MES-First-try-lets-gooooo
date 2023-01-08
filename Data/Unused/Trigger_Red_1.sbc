@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Hacking_R_1</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:ture]
+			[Type:Damage]
+            [DamageTypes:Grind]
+			
+            [StartsReady:ture]
+			[MaxActions:-1]
+			[Actions:SW_Action_Hacking_R_1]		
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Hacking_R_1</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]            
+            [EnableTriggers:ture]
+            [EnableTriggerNames:SW_Trigger_Hacking_R_2]
+            
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_001]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Hacking_R_2</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:false]
+			[Type:Damage]
+			[DamageTypes:Drill]
+			
+            [StartsReady:false]
+			[MaxActions:-1]
+			[Actions:SW_Action_Hacking_R_2]		
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Hacking_R_2</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            [EnableTriggers:ture]
+            [EnableTriggerNames:SW_Trigger_Hacking_R_3]
+            
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_001]
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Trigger_Hacking_R_3</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Trigger]
+			[UseTrigger:false]
+			[Type:Damage]
+			[DamageTypes:Weapon]
+			
+            [StartsReady:false]
+			[MaxActions:-1]
+			[Actions:SW_Action_Hacking_R_3]		
+			</Description>      
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Action_Hacking_R_3</SubtypeId>
+			</Id>
+			<Description>
+			[RivalAI Action]
+            
+            [EnableTriggers:ture]
+            [EnableTriggerNames:SW_Trigger_Hacking_Unlock]
+        
+            
+            [PlaySoundAtPosition:true]
+            [SoundAtPosition:AQD_SB_Arc_001]
+			</Description>      
+		</EntityComponent>
+
+
+          </EntityComponents>
+</Definitions>

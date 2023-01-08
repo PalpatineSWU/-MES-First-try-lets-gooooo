@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_ManipulationGroupsProfile_Hue</SubtypeId>
+      </Id>
+      <Description>
+             [MES Manipulation Group]
+             [ManipulationProfiles:MES_Manipulation_Hue_I]
+             [ManipulationProfiles:MES_Manipulation_Hue_II]
+             [ManipulationProfiles:MES_Manipulation_Hue_III]
+             [ManipulationProfiles:MES_Manipulation_Hue_IV]
+             [ManipulationProfiles:MES_Manipulation_Hue_V]
+             [ManipulationProfiles:MES_Manipulation_Hue_VI]
+             [ManipulationProfiles:MES_Manipulation_Hue_Z]
+      </Description>
+
+    </EntityComponent>
+<!--Hue Shift Profile -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_Z</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [ShiftBlockColorsHue:false]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_I</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:9]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:3]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_II</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:6]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:6]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_III</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:9]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_IV</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:9]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:-3]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_V</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:6]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:-6]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Hue_VI</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [ShiftBlockColorsHue:true]
+        [ShiftBlockColorAmount:-9]
+      </Description>
+    </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_ManipulationGroupsProfile_Paint_Civi</SubtypeId>
+            </Id>
+            <Description>
+
+             [MES Manipulation Group]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_1]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_Caffhouseblue]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_FadedBeskar]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_Meh]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_BobaSet]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_YodasRobes]
+
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_2]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_1]
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_3]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_2]
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_4]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_3]
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_5]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_4]
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_6]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_5]
+            [ManipulationProfiles:MES_Manipulation_Paint_BrightCivi_7]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_6]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_7]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_8]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_9]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_10]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_11]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_12]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_13]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_14]
+            </Description>
+
+        </EntityComponent>
+
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_1</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.06111111 Y:-0.39 Z:0.28}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.9305556 Y:-0.38 Z:0.38}]
+        [#8C8B8D]
+        [#D3A471]
+        [#4E7468]
+        [#B74C4C]
+        [#AB7481]
+        [#B74C4C]
+            </Description>
+        </EntityComponent>
+
+
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_Caffhouseblue</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.525 Y:0.06 Z:0.32}]       
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.947222233 Y:-0.32 Z:0.21}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.530555546 Y:0.18 Z:0.26}] 
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.55 Y:-0.45 Z:0.44}]           
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.591666639 Y:-0.59 Z:0.3}] 
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.49444443 Y:-0.37 Z:-0.09}]
+        [#1cacc4]
+        [#a85770]
+        [#0494b6]
+        [#94cce4]
+        [#98aac0]
+        [#345c5b]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_FadedBeskar</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.983333349 Y:-0.06 Z:0.33}]  
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.125 Y:-0.23 Z:-0.07}]       
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0472222231 Y:-0.38 Z:0.52}] 
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.06388889 Y:-0.27 Z:0.23}]   
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.06944445 Y:-0.29 Z:-0.11}]  
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.333333343 Y:-0.64 Z:0.32}]  
+        [#c83444]
+        [#62542a]
+        [#f7ad90]
+        [#ae7652]
+        [#573d2b]
+        [#a4c4a4]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_Meh</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.5694444 Y:-0.44 Z:0.2}]    
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.1388889 Y:-0.37 Z:0.44}]   
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.580555558 Y:0.09 Z:-0.01}] 
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.013888889 Y:0.11 Z:0.41}]  
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.55 Y:-0.59 Z:0.36}]        
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.7777778 Y:-0.35 Z:-0.21}]  
+        [#6b8da6]
+        [#e4d381]
+        [#0c4171]
+        [#dc2413]
+        [#a3c2cf]
+        [#33213c]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BobaSet</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]    
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.405555546 Y:-0.29 Z:0.23}] 
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.5 Y:-0.67 Z:0.31}]         
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.533333361 Y:0.18 Z:0.27}]  
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.108333334 Y:0.13 Z:0.46}]  
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.575 Y:-0.32 Z:-0.1}]       
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.9861111 Y:0.16 Z:0.17}]    
+        [#54ad7a]
+        [#a8c2c2]
+        [#0494b7]
+        [#e89e10]
+        [#2e4558]
+        [#9f0613]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_YodasRobes</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.525 Y:0.06 Z:0.32}]               
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.463888884 Y:-0.55 Z:0.13}] 
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.533333361 Y:0.18 Z:0.27}]          
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.825 Y:-0.69 Z:0.3}]                
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0472222231 Y:-0.24 Z:0}]           
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.05 Y:-0.18 Z:0.46}]        
+        [#1cacc4]
+        [#6f948c]
+        [#0494b7]
+        [#bfaac0]
+        [#744533]
+        [#e98459]
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_2</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:8]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.6527778 Y:-0.54 Z:0.12}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.466666669 Y:-0.58 Z:0.19}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.127777785 Y:-0.23 Z:0.18}]
+        [#8C8B8D]
+        [#3F913D]
+        [#8C8B8D]
+        [#6C6F92]
+        [#7FA39C]
+        [#A18C46]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_3</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.7027778 Y:-0.47 Z:0.25}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.905555546 Y:-0.12 Z:0.28}]
+        [#D9BD48]
+        [#8C8B8D]
+        [#8578B3]
+        [#3F913D]
+        [#8C8B8D]
+        [#B93B83]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_4</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.06944445 Y:-0.65 Z:0.48}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.572222233 Y:-0.39 Z:0.28}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.075 Y:-0.33 Z:0.46}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}]
+        [#8C8B8D]
+        [#D9BD48]
+        [#EED9CA]
+        [#6F9ABB]
+        [#E9AC7B]
+        [#3F913D]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_5</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.144444451 Y:-0.65 Z:0.16}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.225 Y:-0.62 Z:0.23}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.144444451 Y:-0.65 Z:0.16}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]
+        [#8C8B8D]
+        [#9B9883]
+        [#837458]
+        [#A2AD8D]
+        [#9B9883]
+        [#D9BD48]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_6</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.06111111 Y:-0.39 Z:0.28}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.9305556 Y:-0.38 Z:0.38}]
+        [#D9BD48]
+        [#8C8B8D]
+        [#8C8B8D]
+        [#8E7B67]
+        [#B9896D]
+        [#D37A9F]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Paint_BrightCivi_7</SubtypeId>
+            </Id>
+            <Description>
+        [MES Manipulation]
+        [ManipulationChance:3]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.71 Z:-0.36}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.719444454 Y:-0.35 Z:0.22}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.71 Z:-0.36}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.13333334 Y:-0.09 Z:0.46}]
+        [#161414]
+        [#8C8B8D]
+        [#8C8B8D]
+        [#775EAB]
+        [#21142F]
+        [#E9C944]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives1</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_1]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives2</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_2]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives3</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_3]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives4</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_4]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives5</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_5]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives6</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_6]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives7</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_7]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives8</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_8]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Manipulation_Jumpdrives9</SubtypeId>
+            </Id>
+            <Description>
+              [MES Manipulation]
+              [ManipulationChance:10]
+			  [UseBlockReplacerProfile:true]
+              [BlockReplacerProfileNames:MES_Jumpdrives_9]
+			  [AlwaysRemoveBlock:false]
+            </Description>
+           </EntityComponent>             
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_ManipulationGroupsProfile_Jumpdrives</SubtypeId>
+            </Id>
+            <Description>
+      [MES Manipulation Group]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives1]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives2]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives3]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives4]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives5]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives6]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives7]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives8]
+        [ManipulationProfiles:MES_Manipulation_Jumpdrives9]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

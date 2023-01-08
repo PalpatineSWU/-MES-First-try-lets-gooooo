@@ -33,7 +33,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>MES_SW_Lp_Cabin_Emp</SubtypeId>
+                <SubtypeId>MES_SW_Lp_Cabin_Empire</SubtypeId>
             </Id>
             <Description>
 
@@ -135,7 +135,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>MES_SW_Lp_Cabin_Reb</SubtypeId>
+                <SubtypeId>MES_SW_Lp_Cabin_Rebel</SubtypeId>
             </Id>
             <Description>
 
@@ -236,7 +236,7 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>MES_SW_Lp_Cabin_Civ</SubtypeId>
+                <SubtypeId>MES_SW_Lp_Cabin_Civi</SubtypeId>
             </Id>
             <Description>
 

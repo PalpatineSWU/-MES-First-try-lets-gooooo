@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_ManipulationGroupsProfile_Paint_Sith</SubtypeId>
+      </Id>
+      <Description>
+
+             [MES Manipulation Group]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_1]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_2]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_3]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_4]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_5]
+            [ManipulationProfiles:MES_Manipulation_Paint_SithPalette_6]
+            
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_1]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_2]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_3]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_4]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_5]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_6]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_7]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_8]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_9]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_10]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_11]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_12]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_13]
+            [ManipulationProfiles:MES_Manipulation_Paint_MercPalette_14]
+      </Description>
+
+    </EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_1</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:10]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.8 Z:-0.45}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.008333334 Y:-0.07 Z:0.24}]
+        [#000000]
+        [#141013]
+        [#8C8B8D]
+        [#7C747D]
+        [#21142F]
+        [#B13630]
+    </Description>
+</EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_2</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:20]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.008333334 Y:0.2 Z:-0.09}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.07777778 Y:-0.37 Z:0.01}]
+        [#5B0400]
+        [#21142F]
+        [#CDB5A3]
+        [#7C747D]
+        [#21142F]
+        [#765B43]
+    </Description>
+</EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_3</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:30]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.008333334 Y:-0.07 Z:0.24}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.05277778 Y:-0.58 Z:0.24}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.544444442 Y:-0.49 Z:-0.26}]
+        [#141013]
+        [#B13630]
+        [#B0968A]
+        [#7C747D]
+        [#21142F]
+        [#222D31]
+    </Description>
+</EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_4</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:40]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [#E53A20]
+        [#141013]
+        [#8C8B8D]
+        [#7C747D]
+        [#252528]
+        [#21142F]
+    </Description>
+</EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_5</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:50]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.8 Z:-0.45}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.8 Z:-0.45}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]
+        [#000000]
+        [#21142F]
+        [#8C8B8D]
+        [#000000]
+        [#252528]
+        [#E53A20]
+    </Description>
+</EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES_Manipulation_Paint_SithPalette_6</SubtypeId>
+    </Id>
+    <Description>
+        [MES Manipulation]
+        [ManipulationChance:60]
+        [RecolorGrid:true]
+        [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]
+        [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0 Y:-0.8 Z:-0.45}]
+        [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]
+        [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.8333333 Y:-0.79 Z:0.2}]
+        [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]
+        [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}]
+        [RecolorNew:{X:0.0833333358 Y:-0.78 Z:0.51}]
+        [#E53A20]
+        [#000000]
+        [#8C8B8D]
+        [#A7A6A7]
+        [#252528]
+        [#F6F4F2]
+    </Description>
+</EntityComponent>
+    </EntityComponents>
+</Definitions>

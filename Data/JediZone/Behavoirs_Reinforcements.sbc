@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Jedi_Local_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Trigger]
+				[UseTrigger:true]
+        		[Type:Damage]
+		    	[DamageTypes:Any]
+
+        		[ExcludedDamageTypes:Environment]
+        		[ExcludedDamageTypes:Deformation]
+        		[ExcludedDamageTypes:Fire]
+
+				[StartsReady:true]
+				[MaxActions:1]
+				[Actions:Action_Jedi_Local_Reinforcements]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Jedi_Local_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Action]
+				[Chance:50]
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Jedi_Local_Reinforcements_Planet]
+				[Spawner:SpawnGroup_Jedi_Local_Reinforcements_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Jedi_Local_Reinforcements]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Jedi_Local_Reinforcements_Planet</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Spawn]
+				[UseSpawn:true]
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:15]
+
+				[SpawnGroups:Jedi_Miners]						
+				[SpawnGroups:Jedi_Small_Fighter]
+				[SpawnGroups:Jedi_Small_Fighter_Squad]
+				[SpawnGroups:Jedi_Small_Fighter_Swarm]		
+				[SpawnGroups:Jedi_Small_ships]
+				[SpawnGroups:Jedi_Large_ships]
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:3000]
+    		    [MaxDistance:8000]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Jedi_Local_Reinforcements_Space</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Spawn]
+				[UseSpawn:true]
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:6]
+
+				[SpawnGroups:Jedi_Miners]						
+				[SpawnGroups:Jedi_Small_Fighter]
+				[SpawnGroups:Jedi_Small_Fighter_Squad]
+				[SpawnGroups:Jedi_Small_Fighter_Swarm]		
+				[SpawnGroups:Jedi_Small_ships]
+				[SpawnGroups:Jedi_Large_ships]
+				
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:3000]
+   				[MaxDistance:10000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Jedi_Local_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Chat]
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[IgnoreAntennaRequirement:true]
+				[IgnoredAntennaRangeOverride:50000]
+				[Author:{Faction}]
+				[Color:Blue]
+				[ChatMessages:Tight band transmission calling all {Faction} ships near {GPS}, "We are under attack and need assistance!"]
+				[GPSLabel:V... Jedi short band distress call]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_020]
+			</Description>
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Jedi_Global_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Trigger]
+				[UseTrigger:true]
+        		[Type:Damage]
+		    	[DamageTypes:Any]
+
+        		[ExcludedDamageTypes:Environment]
+        		[ExcludedDamageTypes:Deformation]
+        		[ExcludedDamageTypes:Fire]
+
+				[StartsReady:true]
+				[MaxActions:1]
+				[Actions:Action_Jedi_Global_Reinforcements]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Jedi_Global_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Action]
+				[Chance:50]
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Jedi_Global_Reinforcements_Planet]
+				[Spawner:SpawnGroup_Jedi_Global_Reinforcements_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Jedi_Global_Reinforcements]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Jedi_Global_Reinforcements_Planet</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Spawn]
+				[UseSpawn:true]
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:4]
+
+				[SpawnGroups:Jedi_Ground_ships]
+				[SpawnGroups:Jedi_Miners]						
+				[SpawnGroups:Jedi_Small_Fighter]
+				[SpawnGroups:Jedi_Small_Fighter_Squad]
+				[SpawnGroups:Jedi_Small_Fighter_Swarm]		
+				[SpawnGroups:Jedi_Small_ships]
+				[SpawnGroups:Jedi_Large_ships]
+				[SpawnGroups:Jedi_Boss_ships]
+
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:3000]
+    		    [MaxDistance:8000]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Jedi_Global_Reinforcements_Space</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Spawn]
+				[UseSpawn:true]
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:3]
+
+				[SpawnGroups:Jedi_Miners]						
+				[SpawnGroups:Jedi_Small_Fighter]
+				[SpawnGroups:Jedi_Small_Fighter_Squad]
+				[SpawnGroups:Jedi_Small_Fighter_Swarm]		
+				[SpawnGroups:Jedi_Small_ships]
+				[SpawnGroups:Jedi_Large_ships]
+				[SpawnGroups:Jedi_Boss_ships]
+
+
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:3000]
+   				[MaxDistance:10000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Jedi_Global_Reinforcements</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Chat]
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[SendToAllOnlinePlayers:true]
+				[Author:{Faction}]
+				[Color:Blue]
+				[ChatMessages:Wide band distress call from {GPS}, calling any {Faction} forces, "We are under attack and need assistance!"]
+				[GPSLabel:V... Jedi wide band distress call]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_020]
+			</Description>
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

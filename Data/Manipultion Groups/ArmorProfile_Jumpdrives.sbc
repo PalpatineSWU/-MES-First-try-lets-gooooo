@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_1</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_2</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive5]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall5]
+
+
+            </Description>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_3</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive5_5]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall5_5]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_4</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive4]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall4]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_5</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive4M]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall4M]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_6</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive3]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall3]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_7</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive2]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall2]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_8</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive1]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall1]
+
+            </Description>
+
+        </EntityComponent>
+
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>MES_Jumpdrives_9</SubtypeId>
+            </Id>
+            <Description>
+
+        [MES Block Replacement]
+        [RelaxReplacedBlocksSize:true]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_Hyperdrive1_2]
+
+[OldBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall6]
+[NewBlock:MyObjectBuilder_JumpDrive/K_Imperial_Misc_HyperdriveSmall1_2]
+
+            </Description>
+
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

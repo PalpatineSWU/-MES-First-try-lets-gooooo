@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Empire_Colonymaker_1</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+      [Triggers:Trigger_Empire_Local_Reinforcements]
+      </Description>
+		</EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Empire_Colonymaker_2</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+      [Triggers:Trigger_Empire_Colonymaker]
+      [Triggers:Trigger_Empire_Global_Reinforcements]
+
+      </Description>      
+		</EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Empire_Outpostmaker_1</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+
+      [Triggers:Trigger_Empire_Outpostmaker]
+      [Triggers:Trigger_Empire_Local_Reinforcements]
+
+      </Description>      
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Empire_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Trigger]
+
+			[UseTrigger:true]
+        	[Type:Timer]
+	
+        	[MinCooldownMs:0]
+        	[MaxCooldownMs:1]
+			[StartsReady:true]
+			
+			[MaxActions:-1]
+				[Actions:Action_Empire_Colonymaker]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Empire_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Empire_Colonymaker_Planet]
+				[Spawner:SpawnGroup_Empire_Colonymaker_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Empire_Colonymaker]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Empire_Colonymaker_Planet</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:15]
+
+				[SpawnGroups:Empire_Stations_Group_Planet_1]
+				[SpawnGroups:Empire_Ground_ships]
+
+
+
+				[SpawnGroups:Empire_Miners]						
+				[SpawnGroups:Empire_Small_Fighter]
+				[SpawnGroups:Empire_Small_Fighter_Squad]
+				[SpawnGroups:Empire_Small_Fighter_Swarm]		
+				[SpawnGroups:Empire_Small_ships]
+				[SpawnGroups:Empire_Large_ships]
+				[SpawnGroups:Empire_Boss_ships]
+
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:300]
+    		    [MaxDistance:800]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+				
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Empire_Colonymaker_Space</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:6]
+
+				[SpawnGroups:Empire_Stations_Group_Space_1]
+
+				[SpawnGroups:Empire_Miners]						
+				[SpawnGroups:Empire_Small_Fighter]
+				[SpawnGroups:Empire_Small_Fighter_Squad]
+				[SpawnGroups:Empire_Small_Fighter_Swarm]		
+				[SpawnGroups:Empire_Small_ships]
+				[SpawnGroups:Empire_Large_ships]
+				[SpawnGroups:Empire_Boss_ships]
+
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:300]
+   				[MaxDistance:1000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+				</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Empire_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Chat]
+
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[SendToAllOnlinePlayers:true]
+				[Author:{Faction}]
+				[Color:Blue]
+
+				[ChatMessages:{Faction} colony has been found at {GPS}]
+				[GPSLabel:V... Empire colony]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_040]
+
+
+			</Description>
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Empire_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Trigger]
+
+			[UseTrigger:true]
+        	[Type:Timer]
+	
+        	[MinCooldownMs:0]
+        	[MaxCooldownMs:1]
+			[StartsReady:true]
+			
+			[MaxActions:-1]
+				[Actions:Action_Empire_Outpostmaker]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Empire_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Empire_Outpostmaker_Planet]
+				[Spawner:SpawnGroup_Empire_Outpostmaker_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Empire_Outpostmaker]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Empire_Outpostmaker_Planet</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:4]
+
+				[SpawnGroups:Empire_Stations_Group_Planet_1]
+				[SpawnGroups:Empire_Ground_ships]
+
+				[SpawnGroups:Empire_Miners]						
+				[SpawnGroups:Empire_Small_Fighter]
+				[SpawnGroups:Empire_Small_Fighter_Squad]
+				[SpawnGroups:Empire_Small_Fighter_Swarm]		
+				[SpawnGroups:Empire_Small_ships]
+				[SpawnGroups:Empire_Large_ships]
+
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:300]
+    		    [MaxDistance:800]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+				
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Empire_Outpostmaker_Space</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:3]
+
+				[SpawnGroups:Empire_Stations_Group_Space_1]
+				
+				[SpawnGroups:Empire_Miners]						
+				[SpawnGroups:Empire_Small_Fighter]
+				[SpawnGroups:Empire_Small_Fighter_Squad]
+				[SpawnGroups:Empire_Small_Fighter_Swarm]		
+				[SpawnGroups:Empire_Small_ships]
+				[SpawnGroups:Empire_Large_ships]
+
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:300]
+   				[MaxDistance:1000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+				</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Empire_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Chat]
+
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[IgnoreAntennaRequirement:true]
+				[IgnoredAntennaRangeOverride:50000]
+				[Author:{Faction}]
+				[Color:Blue]
+
+				[ChatMessages:{Faction} outpost has been found at {GPS}]
+				[GPSLabel:V... Empire Outpost]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_040]
+
+
+			</Description>
+		</EntityComponent>
+
+  </EntityComponents>
+</Definitions>

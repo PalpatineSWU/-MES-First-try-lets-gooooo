@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Sith_Colonymaker_1</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+      [Triggers:Trigger_Sith_Local_Reinforcements]
+      </Description>
+		</EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Sith_Colonymaker_2</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+      [Triggers:Trigger_Sith_Colonymaker]
+      [Triggers:Trigger_Sith_Global_Reinforcements]
+
+      </Description>      
+		</EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Sith_Outpostmaker_1</SubtypeId>
+      </Id>
+      <Description>
+
+    	[RivalAI Behavior]
+    	[BehaviorName:Horsefly]
+	    
+		[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:0]
+        [IdealMaxSpeed:1]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+
+      [Triggers:Trigger_Sith_Outpostmaker]
+      [Triggers:Trigger_Sith_Local_Reinforcements]
+
+      </Description>      
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Sith_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Trigger]
+
+			[UseTrigger:true]
+        	[Type:Timer]
+	
+        	[MinCooldownMs:0]
+        	[MaxCooldownMs:1]
+			[StartsReady:true]
+			
+			[MaxActions:-1]
+				[Actions:Action_Sith_Colonymaker]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Sith_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Sith_Colonymaker_Planet]
+				[Spawner:SpawnGroup_Sith_Colonymaker_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Sith_Colonymaker]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Sith_Colonymaker_Planet</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:15]
+
+				[SpawnGroups:Sith_Stations_Group_Planet_1]
+				[SpawnGroups:Sith_Ground_ships]
+
+
+
+				[SpawnGroups:Sith_Miners]						
+				[SpawnGroups:Sith_Small_Fighter]
+				[SpawnGroups:Sith_Small_Fighter_Squad]
+				[SpawnGroups:Sith_Small_Fighter_Swarm]		
+				[SpawnGroups:Sith_Small_ships]
+				[SpawnGroups:Sith_Large_ships]
+				[SpawnGroups:Sith_Boss_ships]
+
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:300]
+    		    [MaxDistance:800]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+				
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Sith_Colonymaker_Space</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:6]
+
+				[SpawnGroups:Sith_Stations_Group_Space_1]
+
+				[SpawnGroups:Sith_Miners]						
+				[SpawnGroups:Sith_Small_Fighter]
+				[SpawnGroups:Sith_Small_Fighter_Squad]
+				[SpawnGroups:Sith_Small_Fighter_Swarm]		
+				[SpawnGroups:Sith_Small_ships]
+				[SpawnGroups:Sith_Large_ships]
+				[SpawnGroups:Sith_Boss_ships]
+
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:300]
+   				[MaxDistance:1000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+				</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Sith_Colonymaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Chat]
+
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[SendToAllOnlinePlayers:true]
+				[Author:{Faction}]
+				[Color:Blue]
+
+				[ChatMessages:{Faction} colony has been found at {GPS}]
+				[GPSLabel:V... Sith colony]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_040]
+
+
+			</Description>
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Sith_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Trigger]
+
+			[UseTrigger:true]
+        	[Type:Timer]
+	
+        	[MinCooldownMs:0]
+        	[MaxCooldownMs:1]
+			[StartsReady:true]
+			
+			[MaxActions:-1]
+				[Actions:Action_Sith_Outpostmaker]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Sith_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Sith_Outpostmaker_Planet]
+				[Spawner:SpawnGroup_Sith_Outpostmaker_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Sith_Outpostmaker]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Sith_Outpostmaker_Planet</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:4]
+
+				[SpawnGroups:Sith_Stations_Group_Planet_1]
+				[SpawnGroups:Sith_Ground_ships]
+
+				[SpawnGroups:Sith_Miners]						
+				[SpawnGroups:Sith_Small_Fighter]
+				[SpawnGroups:Sith_Small_Fighter_Squad]
+				[SpawnGroups:Sith_Small_Fighter_Swarm]		
+				[SpawnGroups:Sith_Small_ships]
+				[SpawnGroups:Sith_Large_ships]
+
+
+    		    [UseRelativeSpawnPosition:false]
+				[InheritNpcAltitude:true]
+    		    [MinDistance:300]
+    		    [MaxDistance:800]
+    		    [MinAltitude:0]
+    		    [MaxAltitude:1]
+    		    [IgnoreSafetyChecks:false]
+    		    [ProcessAsAdminSpawn:true]
+				
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SpawnGroup_Sith_Outpostmaker_Space</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Spawn]
+
+				[UseSpawn:true]
+
+				[SpawningType:CustomSpawn]
+				[StartsReady:true]
+				[MaxSpawns:3]
+
+				[SpawnGroups:Sith_Stations_Group_Space_1]
+				
+				[SpawnGroups:Sith_Miners]						
+				[SpawnGroups:Sith_Small_Fighter]
+				[SpawnGroups:Sith_Small_Fighter_Squad]
+				[SpawnGroups:Sith_Small_Fighter_Swarm]		
+				[SpawnGroups:Sith_Small_ships]
+				[SpawnGroups:Sith_Large_ships]
+
+   				[UseRelativeSpawnPosition:false]
+   				[MinDistance:300]
+   				[MaxDistance:1000]
+   				[MinAltitude:0]
+   				[MaxAltitude:50]
+   				[IgnoreSafetyChecks:false]
+   				[ProcessAsAdminSpawn:true]
+				</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Sith_Outpostmaker</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Chat]
+
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[IgnoreAntennaRequirement:true]
+				[IgnoredAntennaRangeOverride:50000]
+				[Author:{Faction}]
+				[Color:Blue]
+
+				[ChatMessages:{Faction} outpost has been found at {GPS}]
+				[GPSLabel:V... Sith Outpost]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_040]
+
+
+			</Description>
+		</EntityComponent>
+
+  </EntityComponents>
+</Definitions>

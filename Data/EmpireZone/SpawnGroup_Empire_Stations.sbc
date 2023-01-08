@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Empire_Stations_Outpost</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]	
+			[SpaceRandomEncounter:true]
+			[PlanetaryInstallation:true]
+			[SkipAirDensityCheck:true]
+            [CutVoxelsAtAirtightCells:true]
+            [CutVoxelSize:2.7]
+
+			[RivalAiSpawn:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]		
+			[ReplenishSystems:true]
+				
+			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Jumpdrives]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Skins]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Paint_Empire]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Empire]
+
+			[UseRandomNameGenerator:true]
+			[RandomGridNamePrefix:(Empire)]
+			[RandomGridNamePattern:RandomCharRandomChar- RandomChar Station]
+
+			[FactionOwner:ImpN]			
+			[ForceStaticGrid:true]
+
+        	[PrefabSpawningMode:Random]
+			[SpawnConditionsProfiles:SW_SpawnProfile_Two_Player]
+
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Base_01">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_02">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_03">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_04">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_05">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_06">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_07">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_08">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_09">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_10">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_11">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_12">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_13">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_14">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_15">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_16">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_17">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_18">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_19">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_20">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Outpostmaker_1</Behaviour>
+				</Prefab>       
+
+			</Prefabs>
+		</SpawnGroup>
+        <!--City-->
+		<!--Copy To This Line And Paste Directly Below-->
+
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Empire_Stations_City</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]	
+			[SpaceRandomEncounter:true]
+			[PlanetaryInstallation:true]
+			[SkipAirDensityCheck:true]
+            [CutVoxelsAtAirtightCells:true]
+            [CutVoxelSize:2.7]
+
+			[RivalAiSpawn:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]		
+			[ReplenishSystems:true]
+				
+			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Jumpdrives]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Skins]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Paint_Empire]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Empire]
+
+			[UseRandomNameGenerator:true]
+			[RandomGridNamePrefix:(Empire)]
+			[RandomGridNamePattern:RandomCharRandomChar- RandomChar Station]
+
+			[FactionOwner:ImpN]			
+			[ForceStaticGrid:true]
+
+        	[PrefabSpawningMode:Random]
+			[SpawnConditionsProfiles:SW_SpawnProfile_Three_Player]
+
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Base_01">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_02">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_03">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_04">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_05">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_06">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_07">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_08">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_09">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_10">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_11">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_12">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_13">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_14">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_15">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_16">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_17">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_18">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_19">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_20">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_2</Behaviour>
+				</Prefab>       
+			</Prefabs>
+		</SpawnGroup>
+        <!--City-->
+		<!--Copy To This Line And Paste Directly Below-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Empire_Stations_Group_Planet_1</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]	
+			[PlanetaryInstallation:true]
+			[SkipAirDensityCheck:true]
+            [CutVoxelsAtAirtightCells:true]
+            [CutVoxelSize:2.7]
+
+			[AdminSpawnOnly:true]
+			[RivalAiSpawn:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]		
+			[ReplenishSystems:true]
+				
+			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Jumpdrives]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Skins]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Paint_Empire]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Empire]
+
+			[UseRandomNameGenerator:true]
+			[RandomGridNamePrefix:(Empire)]
+			[RandomGridNamePattern:RandomCharRandomChar- RandomChar Station]
+
+			[FactionOwner:ImpN]			
+			[ForceStaticGrid:true]
+
+        	[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Base_01">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_02">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_03">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_04">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_05">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_06">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_07">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_08">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_09">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_10">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_11">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_12">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_13">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_14">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_15">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_16">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_17">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_18">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_19">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_20">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>       
+
+				<Prefab SubtypeId="Base_21">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_22">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_23">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_24">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_25">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_26">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_27">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_28">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_29">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_30">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_31">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_32">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_33">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_34">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_35">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_36">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+			</Prefabs>
+		</SpawnGroup>
+        <!--City-->
+		<!--Copy To This Line And Paste Directly Below-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>				<!--Do Not Edit-->
+				<SubtypeId>Empire_Stations_Group_Space_1</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[SpaceRandomEncounter:true]
+            [CutVoxelsAtAirtightCells:true]
+            [CutVoxelSize:2.7]
+
+			[AdminSpawnOnly:true]
+			[RivalAiSpawn:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]		
+			[ReplenishSystems:true]
+				
+			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Jumpdrives]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Skins]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Paint_Empire]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+			[UseLootProfiles:true]
+			[LootProfiles:MES_SW_Lp_General]
+			[LootProfiles:MES_SW_Lp_Cabin_Empire]
+
+			[UseRandomNameGenerator:true]
+			[RandomGridNamePrefix:(Empire)]
+			[RandomGridNamePattern:RandomCharRandomChar- RandomChar Station]
+
+			[FactionOwner:ImpN]			
+			[ForceStaticGrid:true]
+
+        	[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate>			<!--Do not edit-->
+			<Frequency>8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Base_01">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_02">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_03">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_04">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_05">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_06">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_07">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_08">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_09">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_10">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>       
+				<Prefab SubtypeId="Base_11">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_12">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_13">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_14">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_15">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>   
+				<Prefab SubtypeId="Base_16">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_17">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_18">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>  
+				<Prefab SubtypeId="Base_19">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>                  
+				<Prefab SubtypeId="Base_20">
+				    <Position>
+				        <X>0.0</X>
+				        <Y>0.0</Y>
+				        <Z>0.0</Z>
+				    </Position>
+				    <Speed>25</Speed>
+				    <Behaviour>SW_Behavior_Empire_Colonymaker_1</Behaviour>
+				</Prefab>       
+			</Prefabs>
+		</SpawnGroup>
+        <!--City-->
+		<!--Copy To This Line And Paste Directly Below-->
+
+	</SpawnGroups>
+</Definitions>
+
+
+
+
+
+
+
+
+

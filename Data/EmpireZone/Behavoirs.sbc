@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Empire_Smallships_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Fighter]
+
+
+    [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:true]
+
+        [IdealMinSpeed:333]
+        [IdealMaxSpeed:400]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:3000]
+        [StrafeMaxDurationMs:10000]
+        [StrafeSpeedCutOff:300]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SW_Behavior_Empire_Largeships_01</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:HorseFighter]
+      [HorseFighterTimeApproaching:45]
+      [HorseFighterTimeEngaging:45]
+
+      [IdealMinSpeed:333]
+      [IdealMaxSpeed:400]
+
+      [DisableInertiaDampeners:false]
+      [SlowDownOnWaypointApproach:true]
+      [FlyLevelWithGravity:true]
+      [MinimumPlanetAltitude:200]
+      [IdealPlanetAltitude:300]
+      [WaypointTolerance:30]
+      [OffsetSpaceMinDistFromTarget:150]
+      [OffsetSpaceMaxDistFromTarget:300]
+      [OffsetPlanetMinDistFromTarget:150]
+      [OffsetPlanetMaxDistFromTarget:300]
+      [OffsetPlanetMinTargetAltitude:-200]
+      [OffsetPlanetMaxTargetAltitude:200]
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:1000]
+      [StrafeMaxDurationMs:1500]
+      [StrafeSpeedCutOff:333]
+
+
+      [Triggers:Trigger_Empire_Local_Reinforcements]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

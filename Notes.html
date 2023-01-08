@@ -1,36 +1,748 @@
 <?xml version="1.0"?>
+<!--All this stuff is ideas for how to lay out spawning in girds for SWSE using MES t.P-->
+<Definitions of blank>
+    http://colormind.io/bootstrap/
+
+
+
+</Definitions>
+
+Loot Profiles made
+
+[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
+[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
+[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
+[ManipulationGroups:MES_ManipulationGroupsProfile_Tools]		
+[ManipulationGroups:MES_ManipulationGroupsProfile_SmallGridCockpit]	
+[ManipulationGroups:MES_ManipulationGroupsProfile_Hue]
+
+[ManipulationGroups:MES_ManipulationGroupsProfile_Paint] <!--Current--->
+
+
+V Too do V
+[ManipulationGroups:MES_ManipulationGroupsProfile_FACTION THEMED NAMING SCEAME MAKE 6 include skins]
+
+
+Behavior Profile styles
+
+Fighters
+Cruser
+Tool ship
+Hovar tank
+distress triggerer
+
+
+Probe droid that can call backup 
 
 
 <Defintions of the Manipulation Profiles for Large Grid>
-<Standard Rando>
->>Armor Replacement profile
->>Battery Replacement profile
->>Reactor Replacement profile
->>Weapon Replacement Profile
-<Standard Rando/>
 
-<Wreck Standard Rando>
->>!Standard Rando stuff
->>Rust replacement patterning
->>Block health reduction
-<Wreck Standard Rando/>
+    <Standard Rando>
+        >>Armor Replacement profile
+        >>Battery Replacement profile
+        >>Reactor Replacement profile
+        >>Weapon Replacement Profile
+    </Standard Rando>
+
+    <Wreck Standard Rando>
+        >>!Standard Rando stuff
+        >>Rust replacement patterning
+        >>Block health reduction
+    </Wreck Standard Rando>
+</Defintions>
+
+<Definitions of Cargo Profiles>
+    <Poor>
+        >>Ore amount [1-2500]
+        >>Ingot amount [1-250]
+        >>Comps Class III amount [1-25]Comps Class II amount [1-15]Comps Class I amount [1-5]
+    </Poor>
+    <Good>
+
+    </Good>
+    <Rich>
+
+    </Rich>
+
+
+</Definitions>
 
 
 
-Cargo Profiles
+| Threat score | Ship name | Faction |
+| 0             |           |         |
 
+
+
+|           |                                 |                   |                    |  |
+| Author    | ship                            | Base threat score | Maxed threat score |  |
+|           |                                 |                   |                    |  |
+|           |                                 |                   |                    |  |
+|           |                                 |                   |                    |  |
+|           |                                 |                   |                    |  |
+|           |                                 |                   |                    |  |
+|           | Acclimator                      | 2600              |                    |  |
+|           | Raider-class Corvette           | 2200              |                    |  |
+|           | Mini Zetta                      | 364               |                    |  |
+|           | LAAT LE Miner                   | 13                |                    |  |
+|           | LAAT LE Patrol Gunship          | 24                |                    |  |
+|           | Imperial Tank                   | 480               |                    |  |
+|           | Mini Lancer Class Frigate       | 231               |                    |  |
+|           | Mini Tartan Class Cruser        | 124               |                    |  |
+|           | Mini CR-90                      | 120               |                    |  |
+|           | Gozanti-Class Freighter         | 200               |                    |  |
+| Krenic    | AA-9                            | 556               |                    |  |
+| Palpatine | H14 Cargo Hauler                | 486               |                    |  |
+| Zen       | Imperial custom courvette       | 580               |                    |  |
+| Zen       | Marauder class courvette        | 580               |                    |  |
+| Zen       | Pelt                            | 580               |                    |  |
+| Krenic    | Raazor crest                    | 513               |                    |  |
+| Palpatine | VCX-100                         | 200               |                    |  |
+| Zen       | YT-1300                         | 571               |                    |  |
+| Bačiulis  | YT-250                          | 250               |                    |  |
+| Bačiulis  | Luxery Sail barge               | 60 just 60 lol    |                    |  |
+| ?????     | Jedi defender                   | 420               |                    |  |
+| Crisp18   | CR90 Corvette                   | 580               |                    |  |
+| Crisp18   | Consular class                  | 590               |                    |  |
+| Crisp18   | Munificent class friggte        | 2700              | 5477               |  |
+| Crisp18   | Arquitens Frigate               | 2500              |                    |  |
+| Crisp18   | venator class star destoryer    | 3400              |                    |  |
+| Crisp18   | venator class star destoryer II | 9000+             |                    |  |
+| Crisp18   | Providence Class Crusier        | 3500              |                    |  |
+| Crisp18   | Providence Class Crusier II     | 12000             |                    |  |
+|           |                                 |                   |                    |  |
 
 
 Spawn conditions
 
 
+| Sith    | Reds, purples, blacks, dark dark   -into merc                             |
+| Jedi    | blues, yellows, pink, white        -into civi colorered                   |
+| Civi    | All civi colored merc then jedi                                           |
+| Merc    | Darker set spartian colors                                                |
+| Empire  | Very flat sets of grey aand white various flares  -tool ships can go merc |
+| Rebel   | civi same                                                                 |
+| |                                                                           |
+|         |                                                                           |
+
+
+<Encounters large grid ships that fly>
+
+
+    <EncounterType Flying Along> The normal flying along encounter</EncounterType>
+
+    <EncounterType Wreck Planet> Standard Wreck</EncounterType>
+
+    <EncounterType Wreck Space> Space Wreck no rust armor less damage high speed drift</EncounterType>
+
+    <EncounterType Planetary Cargo>ship in orbit to eventual crash</EncounterType>
+
+
+</Encounters>
+#8F5B21
+
+<PaintProfiles>
+    <PaintPalatte Palatte="Basic" >
+| Code format for MES                  | HEX info, also use this for color profile   | The HSV values from in blueprint if you use >>>> | HSV values to put into Color Replacer for blank |
+| [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}] | <!-- [hex][#FF0000] Type="Hull" -->         | <ColorMaskHSV x="0.9999" y="0.2" z="0.55" />     | 0.9999 0.2 0.55                                 |
+| [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}] | <!-- [hex][#00FF00] Type="HullDetail" -->   | <ColorMaskHSV x="0.3333" y="0.2" z="0.55" />     | 0.3333 0.2 0.55                                 |
+| [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}] | <!-- [hex][#0000FF] Type="Inside" -->       | <ColorMaskHSV x="0.6666" y="0.2" z="0.55" />     | 0.6666 0.2 0.55                                 |
+| [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}] | <!-- [hex][#FF00FF] Type="InsideDetail" --> | <ColorMaskHSV x="0.8333" y="0.2" z="0.55" />     | 0.8333 0.2 0.55                                 |
+| [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}] | <!-- [hex][#00FFFF] Type="Floors" -->       | <ColorMaskHSV x="0.4999" y="0.2" z="0.55" />     | 0.4999 0.2 0.55                                 |
+| [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}] | <!-- [hex][#FFFF00] Type="Flare" -->        | <ColorMaskHSV x="0.1666" y="0.2" z="0.55" />     | 0.1666 0.2 0.55                                 |
+    </PaintPalatte>
+
+    <PaintPalatte Palatte="Caffhouseblue" >
+| [RecolorNew:{X:0.525 Y:0.06 Z:0.32}]        | <Paint[hex][#1cacc4] Type="Hull" />         | <ColorMaskHSV x="0.525" y="0.06" z="0.32" />        |
+| [RecolorNew:{X:0.947222233 Y:-0.32 Z:0.21}] | <Paint[hex][#a85770] Type="HullDetail" />   | <ColorMaskHSV x="0.947222233" y="-0.32" z="0.21" /> |
+| [RecolorNew:{X:0.530555546 Y:0.18 Z:0.26}]  | <Paint[hex][#0494b6] Type="Inside" />       | <ColorMaskHSV x="0.530555546" y="0.18" z="0.26" />  |
+| [RecolorNew:{X:0.55 Y:-0.45 Z:0.44}]        | <Paint[hex][#94cce4] Type="InsideDetail" /> | <ColorMaskHSV x="0.55" y="-0.45" z="0.44" />        |
+| [RecolorNew:{X:0.591666639 Y:-0.59 Z:0.3}]  | <Paint[hex][#98aac0] Type="Floors" />       | <ColorMaskHSV x="0.591666639" y="-0.59" z="0.3" />  |
+| [RecolorNew:{X:0.49444443 Y:-0.37 Z:-0.09}] | <Paint[hex][#345c5b] Type="Flare" />        | <ColorMaskHSV x="0.49444443" y="-0.37" z="-0.09" /> |
+    </PaintPalatte>
+
+    <PaintPalatte Palatte="FadedBeskar" >
+| [RecolorNew:{X:0.983333349 Y:-0.06 Z:0.33}]  | <Paint [hex][#c83444] Type="Hull" />         | <ColorMaskHSV x="0.983333349" y="-0.06" z="0.33" />  |
+| [RecolorNew:{X:0.125 Y:-0.23 Z:-0.07}]       | <Paint [hex][#62542a] Type="HullDetail" />   | <ColorMaskHSV x="0.125" y="-0.23" z="-0.07" />       |
+| [RecolorNew:{X:0.0472222231 Y:-0.38 Z:0.52}] | <Paint [hex][#f7ad90] Type="Inside" />       | <ColorMaskHSV x="0.0472222231" y="-0.38" z="0.52" /> |
+| [RecolorNew:{X:0.06388889 Y:-0.27 Z:0.23}]   | <Paint [hex][#ae7652] Type="InsideDetail" /> | <ColorMaskHSV x="0.06388889" y="-0.27" z="0.23" />   |
+| [RecolorNew:{X:0.06944445 Y:-0.29 Z:-0.11}]  | <Paint [hex][#573d2b] Type="Floors" />       | <ColorMaskHSV x="0.06944445" y="-0.29" z="-0.11" />  |
+| [RecolorNew:{X:0.333333343 Y:-0.64 Z:0.32}]  | <Paint [hex][#a4c4a4] Type="Flare" />        | <ColorMaskHSV x="0.333333343" y="-0.64" z="0.32" />  |
+    </PaintPalatte>
+
+    <PaintPalatte Palatte="Meh" >
+| [RecolorNew:{X:0.5694444 Y:-0.44 Z:0.2}]     | <!--[hex][#6b8da6] Type="Hull" -->         | <ColorMaskHSV x="0.5694444" y="-0.44" z="0.2" />    |
+| [RecolorNew:{X:0.1388889 Y:-0.37 Z:0.44}]    | <!--[hex][#e4d381] Type="HullDetail" -->   | <ColorMaskHSV x="0.1388889" y="-0.37" z="0.44" />   |
+| [RecolorNew:{X:0.580555558 Y:0.09 Z:-0.01}]  | <!--[hex][#0c4171] Type="Inside" -->       | <ColorMaskHSV x="0.580555558" y="0.09" z="-0.01" /> |
+| [RecolorNew:{X:0.013888889 Y:0.11 Z:0.41}]   | <!--[hex][#dc2413] Type="InsideDetail" --> | <ColorMaskHSV x="0.013888889" y="0.11" z="0.41" />  |
+| [RecolorNew:{X:0.55 Y:-0.59 Z:0.36}]         | <!--[hex][#a3c2cf] Type="Floors" -->       | <ColorMaskHSV x="0.55" y="-0.59" z="0.36" />        |
+| [RecolorNew:{X:0.7777778 Y:-0.35 Z:-0.21}]   | <!--[hex][#33213c] Type="Flare" -->        | <ColorMaskHSV x="0.7777778" y="-0.35" z="-0.21" />  |
+    </PaintPalatte>
+    
+    
+<PaintPalatte Palatte="BobaSet" >
+| [RecolorNew:{X:0.405555546 Y:-0.29 Z:0.23}] | <!--[hex][#54ad7a] Type="Hull" -->         | <ColorMaskHSV x="0.405555546" y="-0.29" z="0.23" /> |
+| [RecolorNew:{X:0.5 Y:-0.67 Z:0.31}]         | <!--[hex][#a8c2c2] Type="HullDetail" -->   | <ColorMaskHSV x="0.5" y="-0.67" z="0.31" />         |
+| [RecolorNew:{X:0.533333361 Y:0.18 Z:0.27}]  | <!--[hex][#0494b7] Type="Inside" -->       | <ColorMaskHSV x="0.533333361" y="0.18" z="0.27" />  |
+| [RecolorNew:{X:0.108333334 Y:0.13 Z:0.46}]  | <!--[hex][#e89e10] Type="InsideDetail" --> | <ColorMaskHSV x="0.108333334" y="0.13" z="0.46" />  |
+| [RecolorNew:{X:0.575 Y:-0.32 Z:-0.1}]       | <!--[hex][#2e4558] Type="Floors" -->       | <ColorMaskHSV x="0.575" y="-0.32" z="-0.1" />       |
+| [RecolorNew:{X:0.9861111 Y:0.16 Z:0.17}]    | <!--[hex][#9f0613] Type="Flare" -->        | <ColorMaskHSV x="0.9861111" y="0.16" z="0.17" />    |
+</PaintPalatte>      
+
+              
+<PaintPalatte Palatte="YodasRobes" >
+| [RecolorNew:{X:0.525 Y:0.06 Z:0.32}]         | <!--[hex][#1cacc4] Type="Hull" -->         | <ColorMaskHSV x="0.525" y="0.06" z="0.32" />        |
+| [RecolorNew:{X:0.463888884 Y:-0.55 Z:0.13}]  | <!--[hex][#6f948c] Type="HullDetail" -->   | <ColorMaskHSV x="0.463888884" y="-0.55" z="0.13" /> |
+| [RecolorNew:{X:0.533333361 Y:0.18 Z:0.27}]   | <!--[hex][#0494b7] Type="Inside" -->       | <ColorMaskHSV x="0.533333361" y="0.18" z="0.27" />  |
+| [RecolorNew:{X:0.825 Y:-0.69 Z:0.3}]         | <!--[hex][#bfaac0] Type="InsideDetail" --> | <ColorMaskHSV x="0.825" y="-0.69" z="0.3" />        |
+| [RecolorNew:{X:0.0472222231 Y:-0.24 Z:0}]    | <!--[hex][#744533] Type="Floors" -->       | <ColorMaskHSV x="0.0472222231" y="-0.24" z="0" />   |
+| [RecolorNew:{X:0.05 Y:-0.18 Z:0.46}]         | <!--[hex][#e98459] Type="Flare" -->        | <ColorMaskHSV x="0.05" y="-0.18" z="0.46" />        |
+</PaintPalatte>   
+
+
+<PaintPalatte Palatte:BrightCivi_1 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]   
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.06111111 Y:-0.39 Z:0.28}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.9305556 Y:-0.38 Z:0.38}]   
+    [#8C8B8D]
+    [#D3A471]
+    [#4E7468]
+    [#B74C4C]
+    [#AB7481]
+    [#B74C4C]
+</PaintPalatte>   
+
+
+<PaintPalatte Palatte:BrightCivi_2 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.6527778 Y:-0.54 Z:0.12}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.466666669 Y:-0.58 Z:0.19}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.127777785 Y:-0.23 Z:0.18}] 
+    [#8C8B8D]
+    [#3F913D]
+    [#8C8B8D]
+    [#6C6F92]
+    [#7FA39C]
+    [#A18C46]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:BrightCivi_3 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]   
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.7027778 Y:-0.47 Z:0.25}]   
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.905555546 Y:-0.12 Z:0.28}] 
+    [#D9BD48]
+    [#8C8B8D]
+    [#8578B3]
+    [#3F913D]
+    [#8C8B8D]
+    [#B93B83]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:BrightCivi_4 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]   
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.06944445 Y:-0.65 Z:0.48}]  
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.572222233 Y:-0.39 Z:0.28}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.075 Y:-0.33 Z:0.46}]       
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.330555558 Y:-0.22 Z:0.12}] 
+    [#8C8B8D]
+    [#D9BD48]
+    [#EED9CA]
+    [#6F9ABB]
+    [#E9AC7B]
+    [#3F913D]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:BrightCivi_5 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.144444451 Y:-0.65 Z:0.16}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.225 Y:-0.62 Z:0.23}]       
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.144444451 Y:-0.65 Z:0.16}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]   
+    [#8C8B8D]
+    [#9B9883]
+    [#837458]
+    [#A2AD8D]
+    [#9B9883]
+    [#D9BD48]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:BrightCivi_6 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]   
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.108333334 Y:-0.47 Z:0.06}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.06111111 Y:-0.39 Z:0.28}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.9305556 Y:-0.38 Z:0.38}]   
+    [#D9BD48]
+    [#8C8B8D]
+    [#8C8B8D]
+    [#8E7B67]
+    [#B9896D]
+    [#D37A9F]
+</PaintPalatte>   
+  
+<PaintPalatte Palatte:BrightCivi_7 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.71 Z:-0.36}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.719444454 Y:-0.35 Z:0.22}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.71 Z:-0.36}]          
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.09 Z:0.46}]  
+    [#161414]
+    [#8C8B8D]
+    [#8C8B8D]
+    [#775EAB]
+    [#21142F]
+    [#E9C944]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:SithPalette_1 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.8 Z:-0.45}]            
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]        
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.008333334 Y:-0.07 Z:0.24}]  
+    [#000000]
+    [#141013]
+    [#8C8B8D]
+    [#7C747D]
+    [#21142F]
+    [#B13630]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:SithPalette_2 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.008333334 Y:0.2 Z:-0.09}]   
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.07777778 Y:-0.37 Z:0.01}]   
+    [#5B0400]
+    [#21142F]
+    [#CDB5A3]
+    [#7C747D]
+    [#21142F]
+    [#765B43]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:SithPalette_3 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]        
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.008333334 Y:-0.07 Z:0.24}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.05277778 Y:-0.58 Z:0.24}]   
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.544444442 Y:-0.49 Z:-0.26}] 
+    [#141013]
+    [#B13630]
+    [#B0968A]
+    [#7C747D]
+    [#21142F]
+    [#222D31]
+</PaintPalatte> 
+
+<PaintPalatte Palatte:SithPalette_4 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]  
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.875 Y:-0.6 Z:-0.37}]        
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.8138889 Y:-0.73 Z:0.04}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [#E53A20]
+    [#141013]
+    [#8C8B8D]
+    [#7C747D]
+    [#252528]
+    [#21142F]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:SithPalette_5 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.8 Z:-0.45}]            
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.747222245 Y:-0.23 Z:-0.27}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.8 Z:-0.45}]            
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]  
+    [#000000]
+    [#21142F]
+    [#8C8B8D]
+    [#000000]
+    [#252528]
+    [#E53A20]
+</PaintPalatte> 
+
+<PaintPalatte Palatte:SithPalette_6 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}]  
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.8 Z:-0.45}]            
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.8333333 Y:-0.79 Z:0.2}]     
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.6666667 Y:-0.72 Z:-0.29}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.0833333358 Y:-0.78 Z:0.51}] 
+    [#E53A20]
+    [#000000]
+    [#8C8B8D]
+    [#A7A6A7]
+    [#252528]
+    [#F6F4F2]
+</PaintPalatte>  
+
+<PaintPalatte Palatte:JediPalette_1 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.566666663 Y:-0.37 Z:0.3}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.575 Y:-0.34 Z:0.08}]      
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.03 Z:0.34}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.13333334 Y:-0.13 Z:0.4}]  
+    [#6C9DBE]
+    [#8C8B8D]
+    [#496C88]
+    [#CAAB2E]
+    [#8C8B8D]
+    [#D9BD48]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:JediPalette_2 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.61388886 Y:-0.46 Z:0.13}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.9444444 Y:-0.79 Z:0.48}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [#113E89]
+    [#8C8B8D]
+    [#617194]
+    [#113E89]
+    [#EDEAEB]
+    [#113E89]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:JediPalette_3 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5777778 Y:-0.52 Z:0.02}]  
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.5861111 Y:-0.1 Z:0.15}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5222222 Y:-0.5 Z:0.17}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [#113E89]
+    [#8C8B8D]
+    [#576979]
+    [#2E6299]
+    [#6F999F]
+    [#113E89]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:JediPalette_4 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.5277778 Y:-0.1 Z:0.25}]   
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.605555534 Y:0.08 Z:0.09}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.4027778 Y:-0.73 Z:0.5}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5472222 Y:-0.42 Z:0.12}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5277778 Y:-0.1 Z:0.25}]   
+    [#8C8B8D]
+    [#359EB3]
+    [#113E89]
+    [#E2F3E9]
+    [#5B8292]
+    [#359EB3]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:JediPalette_5 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.71 Z:-0.36}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.37 Z:0.21}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.4027778 Y:-0.73 Z:0.5}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.71 Z:-0.36}]          
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6333333 Y:0 Z:-0.05}]      
+    [#161414]
+    [#A98F61]
+    [#8C8B8D]
+    [#E2F3E9]
+    [#161414]
+    [#152567]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:JediPalette_6 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.50555557 Y:-0.47 Z:0.43}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5833333 Y:-0.54 Z:-0.06}]  
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.127777785 Y:-0.32 Z:0.46}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.71 Z:-0.36}]          
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6333333 Y:0 Z:-0.05}]      
+    [#8C8B8D]
+    [#97DEE1]
+    [#495663]
+    [#E9D07A]
+    [#161414]
+    [#152567]
+</PaintPalatte>  
+    
+<PaintPalatte Palatte:MercPalette_1 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.18 Z:0.31}]            
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.0833333358 Y:-0.79 Z:0.52}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.0222222228 Y:-0.25 Z:0.3}]  
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.7083333 Y:-0.68 Z:-0.32}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.975 Y:-0.62 Z:0.15}]        
+    [#8C8B8D]
+    [#C34C4B]
+    [#F8F7F6]
+    [#BE6355]
+    [#1E1D21]
+    [#997E82]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_2 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.641666651 Y:-0.61 Z:0.11}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.166666672 Y:-0.8 Z:0.53}]   
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.983333349 Y:-0.37 Z:0.3}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.7083333 Y:-0.58 Z:-0.3}]    
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.594444454 Y:-0.57 Z:-0.21}] 
+    [#8C8B8D]
+    [#74788F]
+    [#FAFAF9]
+    [#BE6D75]
+    [#1F1D25]
+    [#2F353D]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_3 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.79 Z:0.5}]   
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6888889 Y:-0.7 Z:0.13}]     
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.01 Z:0.39}]  
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.580555558 Y:-0.35 Z:-0.08}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.01 Z:0.39}]  
+    [#8C8B8D]
+    [#F1EFEE]
+    [#868493]
+    [#D7992D]
+    [#344A5F]
+    [#D7992D]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_4 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.06666667 Y:-0.37 Z:0.09}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.25 Y:-0.78 Z:0.5}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.74 Z:0.1}]          
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.111111112 Y:-0.51 Z:0.11}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.36944443 Y:-0.59 Z:-0.29}] 
+    [#8C8B8D]
+    [#89664E]
+    [#F0F2EE]
+    [#848C8C]
+    [#8F8165]
+    [#212A23]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_5 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.333333343 Y:-0.79 Z:0.5}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.969444454 Y:-0.72 Z:0.08}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.37 Z:0.21}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.6666667 Y:-0.6 Z:-0.28}]   
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.37 Z:0.21}] 
+    [#8C8B8D]
+    [#F1F3F1]
+    [#877C7E]
+    [#A98F61]
+    [#23232C]
+    [#A98F61]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_6 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.580555558 Y:-0.35 Z:-0.08}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.01 Z:0.39}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.79 Z:0.5}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.6888889 Y:-0.7 Z:0.13}]     
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.105555557 Y:-0.01 Z:0.39}]  
+    [#344A5F]
+    [#D7992D]
+    [#8C8B8D]
+    [#F1EFEE]
+    [#868493]
+    [#D7992D]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_7 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.22 Z:0.27}]          
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.4722222 Y:-0.43 Z:-0.01}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]        
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.116666667 Y:-0.25 Z:0.3}] 
+    [#8C8B8D]
+    [#B74C4C]
+    [#8C8B8D]
+    [#47716A]
+    [#8C8B8D]
+    [#BE9F55]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_8 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:0.07 Z:0.15}]            
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.463888884 Y:-0.67 Z:0.23}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.725 Y:-0.61 Z:-0.04}]      
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.208333328 Y:-0.51 Z:0.15}] 
+    [#8C8B8D]
+    [#991414]
+    [#97AEA9]
+    [#5C5569]
+    [#8C8B8D]
+    [#8F9A6E]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_9 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:0.07 Z:0.15}]            
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.463888884 Y:-0.67 Z:0.23}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.908333361 Y:-0.4 Z:0.08}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.108333334 Y:0.02 Z:0.44}]  
+    [#8C8B8D]
+    [#991414]
+    [#8C8B8D]
+    [#97AEA9]
+    [#88516F]
+    [#E4A429]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_10 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]          
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.7222222 Y:-0.55 Z:-0.36}]   
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.580555558 Y:-0.55 Z:-0.03}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.7222222 Y:-0.55 Z:-0.36}]   
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.552777767 Y:-0.6 Z:-0.08}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.58 Z:0.05}]          
+    [#8C8B8D]
+    [#141218]
+    [#4F5D6A]
+    [#141218]
+    [#4B585E]
+    [#637F7F]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_11 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.7222222 Y:-0.55 Z:-0.36}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.394444436 Y:-0.68 Z:0.07}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.7222222 Y:-0.55 Z:-0.36}]  
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.11388889 Y:-0.64 Z:-0.07}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5472222 Y:-0.08 Z:0.07}]   
+    [#8C8B8D]
+    [#141616]
+    [#75857B]
+    [#141616]
+    [#625D52]
+    [#256984]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_12 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.71 Z:-0.36}]        
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.0444444455 Y:-0.55 Z:0.2}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.111111112 Y:-0.73 Z:0.27}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.166666672 Y:-0.78 Z:0.17}] 
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.0444444455 Y:-0.55 Z:0.2}] 
+    [#141616]
+    [#A5877C]
+    [#B8B4AC]
+    [#9E9E9B]
+    [#8C8B8D]
+    [#A5877C]
+</PaintPalatte>   
+
+<PaintPalatte Palatte:MercPalette_13 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.71 Z:-0.36}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.947222233 Y:-0.67 Z:0.02}]  
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.855555534 Y:-0.66 Z:-0.01}] 
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.4138889 Y:-0.45 Z:0.11}]    
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.71 Z:-0.36}]         
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.4138889 Y:-0.45 Z:0.11}]    
+    [#141616]
+    [#77676C]
+    [#6F606D]
+    [#5E9076]
+    [#141616]
+    [#5E9076]
+</PaintPalatte>
+   
+<PaintPalatte Palatte:MercPalette_14 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.77 Z:0.49}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6111111 Y:-0.76 Z:0.11}]   
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5 Y:-0.71 Z:-0.36}]        
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.08888889 Y:-0.5 Z:0.32}]   
+    [#8C8B8D]
+    [#EFEBE9]
+    [#8A8C90]
+    [#8C8B8D]
+    [#161414]
+    [#C4A98A]
+</PaintPalatte> 
+
+<PaintPalatte Palatte:ImperialPalette_1 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.77 Z:0.49}] 
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6111111 Y:-0.76 Z:0.11}]   
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.5833333 Y:-0.58 Z:-0.34}]  
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0 Y:-0.8 Z:0.47}]            
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.08888889 Y:-0.5 Z:0.32}]   
+    [#8C8B8D]
+    [#EFEBE9]
+    [#8A8C90]
+    [#15181B]
+    [#EBEBEB]
+    [#C4A98A]
+</PaintPalatte> 
+
+<PaintPalatte Palatte:ImperialPalette_2 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.77 Z:0.49}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.5833333 Y:-0.58 Z:-0.34}]  
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.77 Z:0.49}] 
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.0222222228 Y:0.06 Z:0.45}] 
+    [#EBEBEB]
+    [#8C8B8D]
+    [#15181B]
+    [#8C8B8D]
+    [#EBEBEB]
+    [#E53A20]
+</PaintPalatte> 
+
+<PaintPalatte Palatte:ImperialPalette_3 >
+    [RecolorOld:{X:0.9999 Y:0.2 Z:0.55}][RecolorNew:{X:0.055555556 Y:-0.77 Z:0.49}] 
+    [RecolorOld:{X:0.3333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.6666 Y:0.2 Z:0.55}][RecolorNew:{X:0.6333333 Y:-0.75 Z:-0.03}]  
+    [RecolorOld:{X:0.8333 Y:0.2 Z:0.55}][RecolorNew:{X:0.75 Y:-0.79 Z:0.1}]         
+    [RecolorOld:{X:0.4999 Y:0.2 Z:0.55}][RecolorNew:{X:0.5833333 Y:-0.58 Z:-0.34}]  
+    [RecolorOld:{X:0.1666 Y:0.2 Z:0.55}][RecolorNew:{X:0.013888889 Y:0.11 Z:0.41}]  
+    [#FFF9F9]
+    [#8C8B8D]
+    [#67686C]
+    [#FFF9F9]
+    [#15181B]
+    [#dc2413]
+</PaintPalatte> 
 
 
 
-<All large grid ships that fly>
 
 
-
-
-
-<All large grid ships that fly/>
+</PaintProfiles>

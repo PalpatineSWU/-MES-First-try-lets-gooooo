@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SW_Behavior_Jedi_Crash_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Behavior]
+    			[BehaviorName:Horsefly]
+				[DisableInertiaDampeners:false]
+        		[SlowDownOnWaypointApproach:true]
+        		[ExtraSlowDownDistance:500]
+        		[FlyLevelWithGravity:true]
+        		[IdealMinSpeed:0]
+        		[IdealMaxSpeed:1]
+        		[EngageDistanceSpace:8000]
+        		[EngageDistancePlanet:8000]
+        		[DisengageDistanceSpace:9000]
+        		[DisengageDistancePlanet:9000]
+      			[Triggers:Trigger_Jedi_Attacking_Ambush]
+      			[Triggers:Trigger_Jedi_Crash_Ambush]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Jedi_Crash_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Trigger]
+				[UseTrigger:true]
+        		[Type:Timer]
+        		[MinCooldownMs:0]
+        		[MaxCooldownMs:1]
+				[StartsReady:true]
+				[MaxActions:1]
+				[Actions:Action_Jedi_Crash_Ambush]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Jedi_Crash_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Action]
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Jedi_Crash_Ambush]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Jedi_Crash_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Chat]
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[SendToAllOnlinePlayers:true]
+				[Author:HoloNet Relay Beacon]
+				[Color:Green]
+				[ChatMessages:Automated distress signal, crash detected, life support systems nonoperational, aid requested at {GPS}]
+				[GPSLabel:V... Automated wide band distress call]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_018]
+			</Description>
+		</EntityComponent>
+
+
+
+
+
+
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Jedi_Attacking_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Trigger]
+				[UseTrigger:true]
+        		[Type:Damage]
+		    	[DamageTypes:Any]
+
+        		[ExcludedDamageTypes:Environment]
+        		[ExcludedDamageTypes:Deformation]
+        		[ExcludedDamageTypes:Fire]
+
+				[StartsReady:true]
+				[MaxActions:1]
+				[Actions:Action_Jedi_Attacking_Ambush]
+			</Description>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Jedi_Attacking_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Action]
+				[Chance:50]
+				[SpawnEncounter:true]
+				[Spawner:SpawnGroup_Jedi_Global_Reinforcements_Planet]
+				[Spawner:SpawnGroup_Jedi_Global_Reinforcements_Space]
+
+				[UseChatBroadcast:true]
+				[ChatData:Chat_Jedi_Attacking_Ambush]
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat_Jedi_Attacking_Ambush</SubtypeId>
+			</Id>
+			<Description>
+				[RivalAI Chat]
+				[UseChat:true]
+				[StartsReady:true]
+				[MaxChats:1]
+				[BroadcastRandomly:true]
+				[IgnoreAntennaRequirement:true]
+				[IgnoredAntennaRangeOverride:20000]
+				[Author:{Faction}]
+				[Color:Blue]
+				[ChatMessages:You fell for our trap {PlayerName}, surrender or die!]
+				[BroadcastChatType:Both]
+				[ChatAudio:AQD_SB_Arc_005]				
+			</Description>
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

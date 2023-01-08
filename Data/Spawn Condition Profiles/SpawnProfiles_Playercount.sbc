@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SW_SpawnProfile_Two_Player</SubtypeId>
+            </Id>
+            <Description>
+        [MES Spawn Conditions]
+        [UsePlayerCountCheck:true]
+        [MinimumPlayers:2]
+	    [UseThreatLevelCheck:true]
+	    [ThreatLevelCheckRange:15000]
+	    [ThreatScoreMinimum:1500]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SW_SpawnProfile_Three_Player</SubtypeId>
+            </Id>
+            <Description>
+        [MES Spawn Conditions]
+        [UsePlayerCountCheck:true]
+        [MinimumPlayers:3]	
+	    [UseThreatLevelCheck:true]
+	    [ThreatLevelCheckRange:15000]
+	    [ThreatScoreMinimum:5000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SW_SpawnProfile_Five_Player</SubtypeId>
+            </Id>
+            <Description>
+        [MES Spawn Conditions]
+        [UsePlayerCountCheck:true]
+        [MinimumPlayers:5]		
+	    [UseThreatLevelCheck:true]
+	    [ThreatLevelCheckRange:15000]
+	    [ThreatScoreMinimum:15000]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>

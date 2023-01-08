@@ -80,7 +80,7 @@
 			<StartingBalance>1000000</StartingBalance>
 			<Type>None</Type> <!--None, Miner, Trader, Builder-->
 			<DiscoveredByDefault>false</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\Sith.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+			<FactionIcon>Textures\FactionLogo\Siths.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
 		</Faction>
 		<!--Copy To This Line And Paste Directly Below-->
 
@@ -100,12 +100,12 @@
 			<StartingBalance>1000000</StartingBalance>
 			<Type>None</Type> <!--None, Miner, Trader, Builder-->
 			<DiscoveredByDefault>false</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\Jedi.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+			<FactionIcon>Textures\FactionLogo\Jedis.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
 		</Faction>
 		<!--Copy To This Line And Paste Directly Below-->
 
 	<!--Copy From This Line-->
-		<Faction Tag="Civl" Founder="Civilians">
+		<Faction Tag="Civi" Founder="Civilians">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>Jedi_NPC</SubtypeId> <!--Must Be Unique-->
