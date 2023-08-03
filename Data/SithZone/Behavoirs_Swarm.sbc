@@ -42,7 +42,7 @@
         	[PrefabSpawningMode:Random]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="XJ5 X-Wing">
 				    <Position>
@@ -98,7 +98,7 @@
 			[SpawnConditionsProfiles:SW_SpawnProfile_Two_Player]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="XJ5 X-Wing">
 				    <Position>
@@ -154,7 +154,7 @@
 			[SpawnConditionsProfiles:SW_SpawnProfile_Three_Player]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="XJ5 X-Wing">
 				    <Position>
@@ -173,22 +173,6 @@
 	</SpawnGroups>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <EntityComponents>
 
 
@@ -198,34 +182,15 @@
           <SubtypeId>SW_Behavior_Fighter_Swarm_Follow_Sith</SubtypeId>
       </Id>
       <Description>
+      	[RivalAI Behavior]
+      	[BehaviorName:Fighter]
 
-      [RivalAI Behavior]
-      [BehaviorName:Fighter]
+		[AutopilotData:AutopilotProfile_SW_Fighters_01]
 
-
-    	[DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:100]
-        [FlyLevelWithGravity:true]
-
-        [IdealMinSpeed:333]
-        [IdealMaxSpeed:400]
-
-        [EngageDistanceSpace:500]
-        [EngageDistancePlanet:600]
-        [DisengageDistanceSpace:800]
-        [DisengageDistancePlanet:800]
-
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:10000]
-        [StrafeMaxDurationMs:15000]
-
-
-
+		[WeaponSystem:WeaponProfile_SW_Fighter]
+      	[Triggers:Trigger_Weapons]
       </Description>
-      
     </EntityComponent>
-
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -233,34 +198,15 @@
           <SubtypeId>SW_Behavior_Fighter_Swarm_Sith</SubtypeId>
       </Id>
       <Description>
+      	[RivalAI Behavior]
+      	[BehaviorName:Fighter]
 
-      [RivalAI Behavior]
-      [BehaviorName:Fighter]
-
-
-    	[DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:200]
-        [FlyLevelWithGravity:true]
-
-        [IdealMinSpeed:333]
-        [IdealMaxSpeed:400]
-
-        [EngageDistanceSpace:500]
-        [EngageDistancePlanet:600]
-        [DisengageDistanceSpace:800]
-        [DisengageDistancePlanet:800]
-
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:10000]
-        [StrafeMaxDurationMs:15000]
-
+		[AutopilotData:AutopilotProfile_SW_Fighters_01]
 
       	[Triggers:Trigger_Swarm_Sith]
-
-
+      	[Triggers:Trigger_Weapons]
+		[WeaponSystem:WeaponProfile_SW_Fighter]
       </Description>
-      
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -269,34 +215,15 @@
           <SubtypeId>SW_Behavior_Fighter_Squad_Sith</SubtypeId>
       </Id>
       <Description>
+    	[RivalAI Behavior]
+    	[BehaviorName:Fighter]
 
-      [RivalAI Behavior]
-      [BehaviorName:Fighter]
-
-
-    	[DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:200]
-        [FlyLevelWithGravity:true]
-
-        [IdealMinSpeed:333]
-        [IdealMaxSpeed:400]
-
-        [EngageDistanceSpace:500]
-        [EngageDistancePlanet:600]
-        [DisengageDistanceSpace:800]
-        [DisengageDistancePlanet:800]
-
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:10000]
-        [StrafeMaxDurationMs:15000]
-
+		[AutopilotData:AutopilotProfile_SW_Fighters_01]
 
       	[Triggers:Trigger_Squad_Sith]
-
-
+      	[Triggers:Trigger_Weapons]
+		[WeaponSystem:WeaponProfile_SW_Fighter]
       </Description>
-      
     </EntityComponent>
 
 
@@ -366,6 +293,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:12]
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 
 				[SpawnGroups:Sith_Small_Fighter]
 
@@ -436,6 +365,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:3]
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 
 				[SpawnGroups:Sith_Small_Fighter]
 

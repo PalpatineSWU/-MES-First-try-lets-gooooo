@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AutopilotProfile_SW_Fighters_01</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Autopilot]
+      
+    	[DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+        [FlyLevelWithGravity:false]
+
+        [LevelWithGravityWhenIdle:true]
+
+        [IdealMinSpeed:333]
+        [IdealMaxSpeed:400]
+
+        [EngageDistanceSpace:8000]
+        [EngageDistancePlanet:8000]
+        [DisengageDistanceSpace:9000]
+        [DisengageDistancePlanet:9000]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:1500]
+        [StrafeSpeedCutOff:300]
+
+        [MinimumPlanetAltitude:750]
+        [IdealPlanetAltitude:1000]
+		[AltitudeTolerance:200]	
+        [WaypointTolerance:30]
+  
+  
+        [UseVanillaCollisionAvoidance:true]
+        [UseVelocityCollisionEvasion:true]
+        [CollisionEvasionWaypointDistance:300]
+        [CollisionFallEvasionWaypointDistance:100]
+        [CollisionEvasionResumeDistance:100]
+        [CollisionEvasionResumeTime:10]
+        
+        [RamMinDurationMs:1]
+        [RamMaxDurationMs:20]
+        
+        [MaxVelocityAngleForSpeedControl:5]
+      
+			</Description>
+
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

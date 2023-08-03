@@ -42,7 +42,7 @@
         	[PrefabSpawningMode:Random]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="TIE Fighter">
 				    <Position>
@@ -98,7 +98,7 @@
 			[SpawnConditionsProfiles:SW_SpawnProfile_Two_Player]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="TIE Fighter">
 				    <Position>
@@ -154,7 +154,7 @@
 			[SpawnConditionsProfiles:SW_SpawnProfile_Three_Player]
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>2.0</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="TIE Fighter">
 				    <Position>

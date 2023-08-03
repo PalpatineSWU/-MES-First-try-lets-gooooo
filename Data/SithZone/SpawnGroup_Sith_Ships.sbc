@@ -26,6 +26,8 @@
 			[ReplenishSystems:true]
 				
 			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SW_Weapons]
+			
 			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
@@ -216,6 +218,8 @@
 			[ReplenishSystems:true]
 				
 			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SW_Weapons]
+
 			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
@@ -343,6 +347,8 @@
 			[ReplenishSystems:true]
 				
 			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SW_Weapons]
+
 			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]
@@ -373,7 +379,7 @@
 				        <Z>0.0</Z>
 				    </Position>
 				    <Speed>25</Speed>
-				    <Behaviour>SW_Behavior_Sith_Smallships_01</Behaviour>
+				    <Behaviour>SW_Behavior_Sith_Largeships_01</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="Acclamator">
 				    <Position>
@@ -382,7 +388,7 @@
 				        <Z>0.0</Z>
 				    </Position>
 				    <Speed>25</Speed>
-				    <Behaviour>SW_Behavior_Sith_Smallships_01</Behaviour>
+				    <Behaviour>SW_Behavior_Sith_Largeships_01</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="Munificent Class Frigate">
 				    <Position>
@@ -391,7 +397,7 @@
 				        <Z>0.0</Z>
 				    </Position>
 				    <Speed>25</Speed>
-				    <Behaviour>RAI-Generic-Behavior-Horsefly</Behaviour>
+				    <Behaviour>SW_Behavior_Sith_Largeships_01</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="Providence Class Carrier">
 				    <Position>
@@ -400,7 +406,7 @@
 				        <Z>0.0</Z>
 				    </Position>
 				    <Speed>25</Speed>
-				    <Behaviour>RAI-Generic-Behavior-Horsefly</Behaviour>
+				    <Behaviour>SW_Behavior_Sith_Largeships_01</Behaviour>
 				</Prefab>	
 			</Prefabs>
 		</SpawnGroup>
@@ -457,7 +463,7 @@
 				        <Z>0.0</Z>
 				    </Position>
 				    <Speed>25</Speed>
-				    <Behaviour>RAI-Generic-Behavior-Horsefly</Behaviour>
+				    <Behaviour>SW_Behavior_Sith_Largeships_01</Behaviour>
 				</Prefab>	
 			</Prefabs>
 		</SpawnGroup>
@@ -484,6 +490,8 @@
 			[ReplenishSystems:true]
 				
 			[RandomizeWeapons:true]
+			[ManipulationGroups:MES_ManipulationGroupsProfile_SW_Weapons]
+			
 			[ManipulationGroups:MES_ManipulationGroupsProfile_ArmorRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_PowerRandom]
 			[ManipulationGroups:MES_ManipulationGroupsProfile_Thrusters]

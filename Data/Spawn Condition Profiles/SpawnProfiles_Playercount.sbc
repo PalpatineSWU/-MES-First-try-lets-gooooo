@@ -12,9 +12,6 @@
         [MES Spawn Conditions]
         [UsePlayerCountCheck:true]
         [MinimumPlayers:2]
-	    [UseThreatLevelCheck:true]
-	    [ThreatLevelCheckRange:15000]
-	    [ThreatScoreMinimum:1500]
             </Description>
         </EntityComponent>
 
@@ -27,9 +24,6 @@
         [MES Spawn Conditions]
         [UsePlayerCountCheck:true]
         [MinimumPlayers:3]	
-	    [UseThreatLevelCheck:true]
-	    [ThreatLevelCheckRange:15000]
-	    [ThreatScoreMinimum:5000]
             </Description>
         </EntityComponent>
 
@@ -42,9 +36,6 @@
         [MES Spawn Conditions]
         [UsePlayerCountCheck:true]
         [MinimumPlayers:5]		
-	    [UseThreatLevelCheck:true]
-	    [ThreatLevelCheckRange:15000]
-	    [ThreatScoreMinimum:15000]
             </Description>
         </EntityComponent>
     </EntityComponents>

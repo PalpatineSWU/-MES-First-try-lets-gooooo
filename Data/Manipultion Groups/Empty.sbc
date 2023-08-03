@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+		<EntityComponents>
+
+			<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+				<Id>
+					<TypeId>Inventory</TypeId>
+					<SubtypeId>WeaponProfile_SW_Fighter</SubtypeId>
+				</Id>
+				<Description>
+
+        [RivalAI Weapons]
+
+        [UseStaticGuns:true]
+        [UseTurrets:true]
+
+        [MaxStaticWeaponRange:2000]
+        [WeaponMaxAngleFromTarget:6]
+        [WeaponMaxBaseDistanceTarget:20]
+
+        [UseBarrageFire:false]
+        [MaxFireRateForBarrageWeapons:200]
+
+				</Description>
+			</EntityComponent>
+
+		</EntityComponents>
+
+
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger_Weapons</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Trigger]
+				[UseTrigger:true]
+        		[Type:Timer]
+        		[MinCooldownMs:0]
+        		[MaxCooldownMs:1]
+				[StartsReady:true]
+				[MaxActions:1]
+
+			[Actions:Action_Weapons]
+
+			</Description>
+
+		</EntityComponent>
+
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action_Weapons</SubtypeId>
+			</Id>
+			<Description>
+
+      	[RivalAI Action]
+      
+		[SetWeaponsToMaxRange:true]
+		[ChangeAntennaRanges:true]
+		[AntennaRangeChangeType:Set]
+		[AntennaRangeChangeAmount:10000]
+		[EnableHighestRangeAntennas:true]
+
+			</Description>
+
+		</EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-SW-Weapons</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+        [ManipulationChance:100]
+
+[ChangeTurretSettings:true]
+[TurretRange:10000]
+
+[TurretTargetSmallGrids:true]
+[TurretTargetLargeGrids:true]
+[TurretTargetStations:true]
+[TurretTargetCharacters:true]
+[TurretTargetNeutrals:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>MES_ManipulationGroupsProfile_SW_Weapons</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Manipulation Group]
+      [ManipulationProfiles:MES-Manipulation-SW-Weapons] 
+      </Description>
+      
+    </EntityComponent>
+
+	</EntityComponents>
+</Definitions>

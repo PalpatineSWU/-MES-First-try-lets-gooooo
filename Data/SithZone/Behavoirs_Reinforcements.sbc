@@ -52,7 +52,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:15]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Miners]						
 				[SpawnGroups:Sith_Small_Fighter]
 				[SpawnGroups:Sith_Small_Fighter_Squad]
@@ -83,7 +84,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:6]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Miners]						
 				[SpawnGroups:Sith_Small_Fighter]
 				[SpawnGroups:Sith_Small_Fighter_Squad]
@@ -182,7 +184,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:4]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Ground_ships]
 				[SpawnGroups:Sith_Miners]						
 				[SpawnGroups:Sith_Small_Fighter]
@@ -215,7 +218,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:3]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Miners]						
 				[SpawnGroups:Sith_Small_Fighter]
 				[SpawnGroups:Sith_Small_Fighter_Squad]

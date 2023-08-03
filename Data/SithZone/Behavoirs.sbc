@@ -1,44 +1,31 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>SW_Behavior_Sith_Smallships_01</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SW_Behavior_Sith_Smallships_01</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:Fighter]
 
+      [AutopilotData:AutopilotProfile_SW_SmallShips_01]
 
-    [DisableInertiaDampeners:false]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:500]
-        [FlyLevelWithGravity:true]
-
-        [IdealMinSpeed:333]
-        [IdealMaxSpeed:400]
-
-        [EngageDistanceSpace:8000]
-        [EngageDistancePlanet:8000]
-        [DisengageDistanceSpace:9000]
-        [DisengageDistancePlanet:9000]
-
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:3000]
-        [StrafeMaxDurationMs:10000]
-        [StrafeSpeedCutOff:300]
+		  [WeaponSystem:WeaponProfile_SW_Fighter]
+      [Triggers:Trigger_Weapons]
 
       </Description>
-      
+
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>SW_Behavior_Sith_Largeships_01</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SW_Behavior_Sith_Largeships_01</SubtypeId>
       </Id>
       <Description>
 
@@ -47,31 +34,58 @@
       [HorseFighterTimeApproaching:45]
       [HorseFighterTimeEngaging:45]
 
-      [IdealMinSpeed:333]
-      [IdealMaxSpeed:400]
+      [AutopilotData:AutopilotProfile_SW_LargeShips_01]
 
-      [DisableInertiaDampeners:false]
-      [SlowDownOnWaypointApproach:true]
-      [FlyLevelWithGravity:true]
-      [MinimumPlanetAltitude:200]
-      [IdealPlanetAltitude:300]
-      [WaypointTolerance:30]
-      [OffsetSpaceMinDistFromTarget:150]
-      [OffsetSpaceMaxDistFromTarget:300]
-      [OffsetPlanetMinDistFromTarget:150]
-      [OffsetPlanetMaxDistFromTarget:300]
-      [OffsetPlanetMinTargetAltitude:-200]
-      [OffsetPlanetMaxTargetAltitude:200]
-      [AllowStrafing:true]
-      [StrafeMinDurationMs:1000]
-      [StrafeMaxDurationMs:1500]
-      [StrafeSpeedCutOff:333]
+      [TargetData:TargetProfile_SW_LargeShips]
 
-
+		  [WeaponSystem:WeaponProfile_SW_Fighter]
+      [Triggers:Trigger_Weapons]
       [Triggers:Trigger_Sith_Local_Reinforcements]
 
       </Description>
-      
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TargetProfile_SW_LargeShips</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:10000]
+
+        [TimeUntilTargetAcquisition:10]
+        [TimeUntilNextEvaluation:3]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [MatchAllFilters:Powered]
+
+        [MatchAnyFilters:Broadcasting]
+        [MatchAnyFilters:MovementScore]
+        [MatchAnyFilters:LineOfSight]
+
+        [NonBroadcastVisualRange:4000]
+        [MinMovementScore:1000]
+        [MaxMovementDetectableDistance:10000]
+        [MaxLineOfSight:4000]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+        [GetTargetBy:ClosestDistance]
+
+      </Description>
+
     </EntityComponent>
 
   </EntityComponents>

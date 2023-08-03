@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AutopilotProfile_SW_LargeShips_01</SubtypeId>
+			</Id>
+			<Description>
+
+      [RivalAI Autopilot]
+      
+      [IdealMinSpeed:250]
+      [IdealMaxSpeed:330]
+	  [MaxSpeedTolerance:50]
+
+      [DisableInertiaDampeners:false]
+      [FlyLevelWithGravity:true]
+
+      [MinimumPlanetAltitude:750]
+      [IdealPlanetAltitude:1000]
+	  [AltitudeTolerance:200]	
+      [WaypointTolerance:30]
+
+      [OffsetSpaceMinDistFromTarget:500]
+      [OffsetSpaceMaxDistFromTarget:3000]
+
+      [OffsetPlanetMinDistFromTarget:150]
+      [OffsetPlanetMaxDistFromTarget:300]
+      [OffsetPlanetMinTargetAltitude:200]
+      [OffsetPlanetMaxTargetAltitude:200]
+
+    	[SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:800]
+        [EngageDistanceSpace:700]
+        [EngageDistancePlanet:700]
+        [DisengageDistanceSpace:800]
+        [DisengageDistancePlanet:800]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:300]
+        [StrafeMaxDurationMs:600]
+
+        [StrafeMinCooldownMs:6000]
+        [StrafeMaxCooldownMs:10000]
+
+        [StrafeMinimumTargetDistance:500]
+        [StrafeSpeedCutOff:150]
+        [StrafeDistanceCutOff:150]
+
+
+      [UseVanillaCollisionAvoidance:false]
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:250]
+      [CollisionFallEvasionWaypointDistance:250]
+      [CollisionEvasionResumeDistance:25]
+      [CollisionEvasionResumeTime:600]
+
+      [RamMinDurationMs:1]
+      [RamMaxDurationMs:2]
+
+
+      [LimitRotationSpeed:true]
+      [MaxRotationMagnitude:0.4]
+      
+			</Description>
+
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>

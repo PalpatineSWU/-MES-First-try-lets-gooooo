@@ -19,6 +19,8 @@
         [SkinRandomBlocksTextures:Battered_Armor]
         [SkinRandomBlocksTextures:Heavy_Rust_Armor]
 
+        [SetDoorsAnyoneCanUse:true]
+
         [ReduceBlockBuildStates:true]
         [MinimumBlocksPercent:15]
         [MaximumBlocksPercent:40]

@@ -166,7 +166,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:15]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Stations_Group_Planet_1]
 				[SpawnGroups:Sith_Ground_ships]
 
@@ -208,7 +209,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:6]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Stations_Group_Space_1]
 
 				[SpawnGroups:Sith_Miners]						
@@ -320,7 +322,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:4]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Stations_Group_Planet_1]
 				[SpawnGroups:Sith_Ground_ships]
 
@@ -359,7 +362,8 @@
 				[SpawningType:CustomSpawn]
 				[StartsReady:true]
 				[MaxSpawns:3]
-
+      			[SpawnMinCooldown:10]
+      			[SpawnMaxCooldown:30]
 				[SpawnGroups:Sith_Stations_Group_Space_1]
 				
 				[SpawnGroups:Sith_Miners]						
